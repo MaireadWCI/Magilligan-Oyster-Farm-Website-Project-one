@@ -110,3 +110,10 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+23/05/24
+
+Boiler plate html added 
+index.html added
+Favicon unsuccessful add
+assets folder created
