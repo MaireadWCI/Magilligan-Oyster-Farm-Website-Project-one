@@ -1,0 +1,19 @@
+/*Asterick wildcard selector used to overide styles added by default by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+/*header*/
+header {
+    background-color: darkslateblue;
+}
+/*main*/
+main {
+    background-color: lightsteelblue;
+}
+    
+/*Footer*/
+footer {
+    background-color: darkslateblue;
+}
