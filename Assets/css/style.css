@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: green;
+    color: darkslategrey;
     font-family: Montserrat, open-sans;
 }
 
@@ -129,9 +129,23 @@ main {
 }
 
 /*Footer*/
-footer {
+/*footer {
     background-color: darkslateblue;
-    color: slategrey;
+    color: slategrey;}*/ /*removed for now as using the id styling below*/
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(112, 128, 144);
 }
 
 /*Media queries always at bottom of screen*/
