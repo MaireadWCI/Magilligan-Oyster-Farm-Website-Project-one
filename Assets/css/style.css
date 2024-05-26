@@ -20,8 +20,9 @@
     .montserrat {
       font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
-      font-weight: <weight>;
+      font-weight: 600;
       font-style: normal;
+      font-size: large;
     }
 
 /*Asterick wildcard selector used to overide styles added by default by the browser*/
@@ -68,6 +69,14 @@ header a {
 h1 {
     font-family: open-sans, montserrat;
     color: slategrey;
+   
+ 
+}
+
+#menu   {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
 }
 /*main*/
 main {
