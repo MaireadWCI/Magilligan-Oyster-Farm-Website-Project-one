@@ -57,6 +57,14 @@ header {
     box-shadow: 0 2px;2px #808080;
 }
 
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: inherit;
+    color: #252525;
+}
+
 h1 {
     font-family: open-sans, montserrat;
     color: slategrey;
