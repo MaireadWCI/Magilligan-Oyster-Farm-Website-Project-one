@@ -49,6 +49,12 @@ body {
 /*header*/
 header {
     background-color: darkslateblue;
+    color: white;
+}
+
+h1 {
+    font-family: open-sans, montserrat;
+    color: slategrey;
 }
 /*main*/
 main {
@@ -60,4 +66,5 @@ main {
 /*Footer*/
 footer {
     background-color: darkslateblue;
+    color: slategrey;
 }
