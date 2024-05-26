@@ -57,7 +57,7 @@ header {
     width: 100%;
     box-shadow: 0 2px #808080;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: baseline;
 
 }
@@ -73,6 +73,7 @@ header a {
 h1 {
     font-family: open-sans, montserrat;
     color: rgb(112, 128, 144);
+    font-size: large;
     /*margin-bottom: 1em;  why is this not working*/
 }
 
@@ -124,6 +125,7 @@ main {
     background-color: rgb(154, 184, 223);
     /*make main element take up extra surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
