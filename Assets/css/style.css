@@ -68,9 +68,8 @@ header a {
 
 h1 {
     font-family: open-sans, montserrat;
-    color: slategrey;
-   
- 
+    color: rgb(112, 128, 144);
+    /*margin-bottom: 1em;  why is this not working*/
 }
 
 #menu   {
@@ -78,9 +77,18 @@ h1 {
     list-style-type: none;
     letter-spacing: 4px;
 }
+
+#menu > li {
+    margin-bottom: 1em;
+
+}
+
+.active {
+    border-bottom: 1px solid rgb(112, 128, 144);
+}
 /*main*/
 main {
-    background-color: lightsteelblue;
+    background-color: rgb(154, 184, 223);
      /*make main element take up extra surplus space to push footer down*/ 
      flex: 1 0 auto;
 }
