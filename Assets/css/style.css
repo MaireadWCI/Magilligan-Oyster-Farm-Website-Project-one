@@ -56,6 +56,10 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 header a {
@@ -97,11 +101,24 @@ nav {
     box-shadow: 0 2px #808080;
     padding: 0 1rem;
     display: none; /*list items remain hidden until user clicks to open*/
-
-
-
-
+    top: 100%;/*tells the nav element to start at the bottom of the parent*/
 }
+
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;/*hides check box*/
+
+} 
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
 
 main {
     background-color: rgb(154, 184, 223);
