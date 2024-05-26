@@ -169,4 +169,10 @@ footer {
     }
 }
     
+/*laptops and pc 992px plus*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid rgb(112, 128, 144);/*not working right, line appears only when clicked*?
+    }
+    
 }
