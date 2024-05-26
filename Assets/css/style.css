@@ -1,29 +1,29 @@
 /*google font imports*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-    /*font style*/
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 300 to 800
-    
-    .open-sans {
-      font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-      font-variation-settings:
+/*font style*/
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
         "wdth" 100;
-    }
-    
-    /* <uniquifier>: Use a unique and descriptive class name*/
-    /* <weight>: Use a value from 100 to 900*/
-    
-    .montserrat {
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 600;
-      font-style: normal;
-      font-size: large;
-    }
+}
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}
 
 /*Asterick wildcard selector used to overide styles added by default by the browser*/
 * {
@@ -37,15 +37,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-     /*generic project styles*/
-     color: green;
-     font-family: Montserrat, open-sans;
-    }
+    /*generic project styles*/
+    color: green;
+    font-family: Montserrat, open-sans;
+}
 
 
 
-   
-   
+
+
 
 /*header*/
 header {
@@ -55,7 +55,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px;2px #808080;
+    box-shadow: 0 2px #808080;
 }
 
 header a {
@@ -72,27 +72,43 @@ h1 {
     /*margin-bottom: 1em;  why is this not working*/
 }
 
-#menu   {
+#menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
-
 }
 
 .active {
     border-bottom: 1px solid rgb(112, 128, 144);
 }
+
+/*navbar styles with deopdown menu*/
 /*main*/
+
+nav {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px #808080;
+    padding: 0 1rem;
+    display: none; /*list items remain hidden until user clicks to open*/
+
+
+
+
+}
+
 main {
     background-color: rgb(154, 184, 223);
-     /*make main element take up extra surplus space to push footer down*/ 
-     flex: 1 0 auto;
+    /*make main element take up extra surplus space to push footer down*/
+    flex: 1 0 auto;
 }
-    
+
 /*Footer*/
 footer {
     background-color: darkslateblue;
