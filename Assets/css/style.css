@@ -116,7 +116,8 @@ nav {
 } 
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-right: 1em;
 }
 
 /*main*/
@@ -125,7 +126,7 @@ main {
     background-color: rgb(154, 184, 223);
     /*make main element take up extra surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 65px;
+    margin-top: 40px;
 }
 
 /*Footer*/
@@ -179,7 +180,7 @@ main {
     }
 
     main {
-        margin-top: 150px;
+        margin-top: px;
     }
 }
     
