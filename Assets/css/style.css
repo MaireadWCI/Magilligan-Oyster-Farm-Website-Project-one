@@ -48,8 +48,13 @@ body {
 
 /*header*/
 header {
-    background-color: darkslateblue;
-    color: white;
+    background-color: whitesmoke;
+    padding: 0 1rem;
+    color: black;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px;2px #808080;
 }
 
 h1 {
