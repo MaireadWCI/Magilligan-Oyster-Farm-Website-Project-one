@@ -91,9 +91,9 @@ h1 {
     border-bottom: 1px solid rgb(112, 128, 144);
 }
 
-/*navbar styles with deopdown menu*/
-/*main*/
 
+
+/*navbar styles with deopdown menu*/
 nav {
     position: absolute;
     background-color: whitesmoke;
@@ -119,17 +119,45 @@ nav {
     font-size: 2rem;
 }
 
-
+/*main*/
 
 main {
     background-color: rgb(154, 184, 223);
     /*make main element take up extra surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 65px;
 }
 
 /*Footer*/
 footer {
     background-color: darkslateblue;
     color: slategrey;
+}
+
+/*Media queries always at bottom of screen*/
+/*for breakpoint for display size put smallest size first*/
+@media screen and (min-width: 768px) {
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem
+        ;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu >li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+    
 }
