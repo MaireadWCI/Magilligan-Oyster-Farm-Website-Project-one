@@ -123,11 +123,21 @@ nav {
 /*main*/
 
 main {
-    background-color: rgb(154, 184, 223);
+    /*background-color: rgb(154, 184, 223); not neededd as adding hero imaage*/
     /*make main element take up extra surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
 }
+
+/*hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/oytser\ on\ shore-shutterstock.jpg") no-repeat center center/cover;/*need to replace image with our images as pixelation poor*/
+
+}
+
+
 
 /*Footer*/
 /*footer {
