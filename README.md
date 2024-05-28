@@ -113,6 +113,8 @@ Happy coding!
 
 23/05/24
 
+https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?usp=sharing (Spec Doc for project 1)
+
 Boiler plate html added 
 index.html added
 Favicon unsuccessful add

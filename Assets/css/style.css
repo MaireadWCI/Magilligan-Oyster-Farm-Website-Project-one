@@ -42,6 +42,15 @@ body {
     font-family: Montserrat, open-sans;
 }
 
+h1, h2, h3 {
+    font-family: open-sans, montserrat;
+    color: rgb(79, 80, 82);
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+    /*margin-bottom: 1em;  why is this not working*/
 
 
 
@@ -70,12 +79,7 @@ header a {
     color: #252525;
 }
 
-h1 {
-    font-family: open-sans, montserrat;
-    color: rgb(112, 128, 144);
-    font-size: large;
-    /*margin-bottom: 1em;  why is this not working*/
-}
+
 
 #menu {
     font-size: 110%;
@@ -133,9 +137,29 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/oytser\ on\ shore-shutterstock.jpg") no-repeat center center/cover;/*need to replace image with our images as pixelation poor*/
-
+    background-color: green;
+    background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
+    position: relative;
+/*need to replace image with our images as pixelation poor*/
 }
+
+#cover-text {
+    /*final rgba value sets the opacity so it is semi transparent*/
+    background-color: rgba(154, 184, 223,.6);
+    font-size: 130%;
+    position:absolute;
+    bottom: 0px;
+    width: 75%;
+    min-height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: aliceblue;/*not sure about this colour change may remove and revert back to matching font colors same as heading*/
+}
+
 
 
 
@@ -168,8 +192,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem
-        ;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -188,9 +211,16 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
+/*main content*/
     main {
-        margin-top: px;
+       /* margin-top: 100px; /*this is not fixing the gap, I have tried a few sizes and no difference
+        */
+    }
+
+/*Hero*/
+    #cover-text {
+        width: 500px;
+        right: 20px;
     }
 }
     
