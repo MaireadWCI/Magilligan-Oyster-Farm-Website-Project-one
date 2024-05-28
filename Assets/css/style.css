@@ -161,7 +161,16 @@ main {
     color: aliceblue;/*not sure about this colour change may remove and revert back to matching font colors same as heading*/
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
 
+.reasons {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
 
 
 /*Footer*/
