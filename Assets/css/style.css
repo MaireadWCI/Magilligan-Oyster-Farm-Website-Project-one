@@ -172,6 +172,24 @@ main {
     font-size: larger;
 }
 
+#benefits-physical {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-experince-sustainability {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+hr {
+    border-top: 1px solid  rgb(79, 80, 82);
+    margin: 5px 0;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
 
 /*Footer*/
 /*footer {
