@@ -126,9 +126,11 @@ added links for fav icons and formatted doc to links would add nicely
 
 google fonts selected -https://fonts.google.com/
 
-Hero image added to main page and section of reasons added underneath. Audio of wave added to the hero cover text. loop was added to the audio control and hope to hide controls and style with icon that has a call to ation to open the controls. i have worked hard on making hero image fit on all size devices. On small screen still having issues with the top not meeting neetly with the header. 
+Hero image added to main page and section of reasons added underneath. Audio of wave added to the hero cover text mpeg taken from Pixabay.com. https://pixabay.com/sound-effects/ocean-waves-112906/loop was added to the audio control and hope to hide controls and style with icon that has a call to ation to open the controls. i have worked hard on making hero image fit on all size devices. On small screen still having issues with the top not meeting neetly with the header. 
 Hero image is just a place holder at the minute as pixalation is poor. Worried with new image it may through everything I have done so far off. But that is the joys!
 
 Need to learn how to revert to a certain section of code. 
 
 waiting on access to gidpod enterprise. I seem to just have been coding in github this whole time , so would like to start doing it properly so I finish project with more knowlege . Navigation of Gitpod/Github has been tough. Time to master it. 
+
+Site deployed https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/index.html
