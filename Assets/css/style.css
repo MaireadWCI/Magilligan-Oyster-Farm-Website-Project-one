@@ -133,6 +133,10 @@ main {
     margin-top: 40px;
 }
 
+#audio {
+    margin-top: 100%;
+}
+
 /*hero section*/
 #hero {
     height: 900px;
@@ -141,6 +145,9 @@ main {
     background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
     position: relative;
     
+#audio {
+    
+}
 /*need to replace image with our images as pixelation poor*/
 }
 
