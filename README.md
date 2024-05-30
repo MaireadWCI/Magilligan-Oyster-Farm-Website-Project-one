@@ -134,3 +134,8 @@ Need to learn how to revert to a certain section of code.
 waiting on access to gidpod enterprise. I seem to just have been coding in github this whole time , so would like to start doing it properly so I finish project with more knowlege . Navigation of Gitpod/Github has been tough. Time to master it. 
 
 Site deployed https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/index.html
+
+
+Testing 
+Lighthouse - https://developer.chrome.com/docs/lighthouse/overview/
+Page sppeed insights - https://pagespeed.web.dev/
