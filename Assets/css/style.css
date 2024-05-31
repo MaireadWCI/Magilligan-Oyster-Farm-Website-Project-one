@@ -198,7 +198,24 @@ p {
     padding-bottom: 20px;
 }
 
+#circle-cover-background { 
+    /*background: url('../video/farm-view-1.mp4')*/
+    background-color: aqua;
+    /*width: 90vw;
+    height: 90vh;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-width: 300px;
+    background: url(../video/logo.png) no-repeat top center / cover;*/
+}
 
+/*
+#farm-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /*Footer*/
