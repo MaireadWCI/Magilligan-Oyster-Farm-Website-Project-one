@@ -198,23 +198,25 @@ p {
     padding-bottom: 20px;
 }
 
-#circle-cover-background { 
-    /*background: url('../video/farm-view-1.mp4')*/
-    background-color: aqua;
-    /*width: 90vw;
+#circular-cover-background { 
+    background-color: aqua; 
+    width: 90vw;
     height: 90vh;
     border-radius: 50%;
     margin-bottom: 20px;
     max-width: 300px;
     max-width: 300px;
-    background: url(../video/logo.png) no-repeat top center / cover;*/
+   /* background: url(../video/logo.png) no-repeat top center / cover;*/
 }
 
-/*
+
 #farm-video {
     display: flex;
     align-items: center;
     justify-content: center;
+ /*would like video to fill more of the space*/
+ /*would love to create video in a hexagon shape but with the issues I have had with getting the pathway and getting it to be circle think it might be a stretch for me just yet*/
+    
 }
 
 
@@ -281,6 +283,23 @@ p {
     #hero {
         height: 1100px;
     }
+
+    /*benefits section*/
+    #benefits-Physical,
+    #benefits-experince-sustainability {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-Physical > div,
+    #benefits-experince-sustainability > div {
+        width: 75%;
+    }
+
+    #benefits-experince-sustainability > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
     
 /*laptops and pc 992px plus*/
@@ -299,3 +318,29 @@ p {
     height: 800px;
     width: 100%;}
     
+    /*media query for screens 1200px*/
+    @media  screen and (min-width: 1200px) {
+        #benefits {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #benefits > div {
+            flex: 1;
+        }
+
+        #farm-video {
+            order: 0;
+        }
+
+        #benefits-experince-sustainability {
+            order: 1;
+        }
+
+       #benefits-experince-sustainability > div {
+            align-self: flex-start;
+       } 
+       #benefits-Physical > div {
+            align-self: flex-end;
+       }
+    }
