@@ -263,6 +263,17 @@ p {
     font-size: 30px;
 }
 
+/*Gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;/*allows the alternate text to stay readable even with space removed between pics*/
+}
+ #photos {
+    line-height: 0;
+ }
+
+
+
 
 
 /*Footer*/
