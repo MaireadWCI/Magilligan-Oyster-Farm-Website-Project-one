@@ -145,3 +145,5 @@ Having alot of issues trying to add the video at the bottom of page one. I know 
 Finding it hard to get the divs to wrap at the products and services section on page 1. I am thinking I may not be selecting the correct tags. Been at this for a few days so determined to get it sorted today. I was indeed targeting the wrong ids. I have recitified now but the divs are only flexing into two coloumns and I want it to spread across the bottom of page more. will come back to this. 
 
 Have styled the prod and serv divs and added white border. They are now more evenly spaced out and self adjust for different screen sizes
+REnamed Assets folder to assets folder and updated all links in pages
+added a gallery pages as I would like to add alot of pics here once I get good quality pics 

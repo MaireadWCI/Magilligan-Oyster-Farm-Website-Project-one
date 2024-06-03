@@ -1,0 +1,391 @@
+/*google font imports*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*font style*/
+/*<uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800*/
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}
+
+/*Asterick wildcard selector used to overide styles added by default by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/*general styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project styles*/
+    color: darkslategrey;
+    font-family: Montserrat, open-sans;
+}
+
+h1, h2, h3 {
+    font-family: open-sans, montserrat;
+    color: rgb(79, 80, 82);
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+    /*margin-bottom: 1em;  why is this not working*/
+
+    .hidden-heading {
+        display: none;
+    }
+
+
+
+
+/*header*/
+header {
+    background-color: whitesmoke;
+    padding: 0 1rem;
+    color: black;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px #808080;
+    display: flex;
+    justify-content:space-around;
+    align-items: baseline;
+
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: inherit;
+    color: #252525;
+}
+
+
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid rgb(112, 128, 144);
+}
+
+
+
+/*navbar styles with deopdown menu*/
+nav {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px #808080;
+    padding: 0 1rem;
+    display: none; /*list items remain hidden until user clicks to open*/
+    top: 100%;/*tells the nav element to start at the bottom of the parent*/
+}
+
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;/*hides check box*/
+
+} 
+
+.nav-toggle-label {
+    font-size: 1.5rem;
+    padding-right: 1em;
+}
+
+/*main*/
+
+main {
+    /*background-color: rgb(154, 184, 223); not neededd as adding hero imaage*/
+    /*make main element take up extra surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 40px;
+}
+
+#audio {
+    margin-top: 100%;
+}
+
+/*hero section*/
+#hero {
+    height: 900px;
+    width: 100%;
+    background-color: green;
+    background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
+    position: relative;
+    
+
+/*need to replace image with our images as pixelation poor*/
+}
+
+#cover-text {
+    /*final rgba value sets the opacity so it is semi transparent*/
+    background-color: rgba(154, 184, 223,.6);
+    font-size: 130%;
+    position:absolute;
+    bottom: 0px;
+    width: 75%;
+    min-height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: aliceblue;/*not sure about this colour change may remove and revert back to matching font colors same as heading*/
+}
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.reasons {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#benefits-physical {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-experince-sustainability {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+hr {
+    border-top: 1px solid  rgb(79, 80, 82);
+    margin: 5px 0;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#circular-cover-background { 
+    background-color: aqua; 
+    width: 90vw;
+    height: 90vh;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-width: 300px;
+   /* background: url(../video/logo.png) no-repeat top center / cover;*/
+}
+
+
+#farm-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ /*would like video to fill more of the space*/
+ /*would love to create video in a hexagon shape but with the issues I have had with getting the pathway and getting it to be circle think it might be a stretch for me just yet*/
+    
+}
+
+/*servings and offerings section*/
+#offerings {
+    background: url(../images/PanoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
+   /* display: flex; /*handle responsitivity without the need for a media query*/
+    /*flex-wrap: wrap; /*cant get the divs to flex*/
+   /* width: 100%; 
+    height: auto;
+    object-fit: cover;*/ /*trying to stretch the image*/
+}
+
+#servings-offerings div {
+    color: #fafafa;
+    background-color: (0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+   /* flex: 0 0 33.33%*/
+   /*this will not wrap on screens of less than 400px wide
+   each div will expand to fill the avialiable space on its row*/
+    flex-basis: 200px; 
+    flex-grow: 1;
+    /*cretes a grid over the background image*/
+    border: 2px solid white;
+}
+
+#servings-offerings {
+    display: flex; /*handle responsitivity without the need for a media query*/
+    flex-wrap: wrap; /*cant get the divs to flex*/
+    
+    
+}
+
+
+
+/* overides the general settings for the H3 elements in servings-offerings*/
+#offerings h3 {
+    color: #fafafa;
+}
+#offerings h2 {
+    color: #fafafa;
+    font-size: 30px;
+}
+
+
+
+/*Footer*/
+/*footer {
+    background-color: darkslateblue;
+    color: slategrey;}*/ /*removed for now as using the id styling below*/
+
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(112, 128, 144);
+}
+
+/*Media queries always at bottom of screen*/
+/*for breakpoint for display size put smallest size first*/
+@media screen and (min-width: 768px) {
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu >li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+/*main content*/
+   /* main {
+        margin-top: 100px; /*this is not fixing the gap, I have tried a few sizes and no difference
+        */
+    }
+
+/*Hero*/
+    #cover-text {
+        width: 500px;
+        right: 20px;
+    }
+
+    #hero {
+        height: 1100px;
+    }
+
+    /*benefits section*/
+    #benefits-Physical,
+    #benefits-experince-sustainability {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-Physical > div,
+    #benefits-experince-sustainability > div {
+        width: 75%;
+    }
+
+    #benefits-experince-sustainability > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+}
+    
+/*laptops and pc 992px plus*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid rgb(112, 128, 144);/*not working right, line appears only when clicked*/}
+
+  /* #hero {
+    max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+   } (trying to get pic to fill screen on desktop view*/
+
+   #hero {
+    height: 800px;
+    width: 100%;}
+    
+    /*media query for screens 1200px*/
+    @media  screen and (min-width: 1200px) {
+        #benefits {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #benefits > div {
+            flex: 1;
+        }
+
+        #farm-video {
+            order: 0;
+        }
+
+        #benefits-experince-sustainability {
+            order: 1;
+        }
+
+       #benefits-experince-sustainability > div {
+            align-self: flex-start;
+       } 
+       #benefits-Physical > div {
+            align-self: flex-end;
+       }
+    
