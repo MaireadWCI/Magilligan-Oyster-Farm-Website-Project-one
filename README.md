@@ -142,4 +142,6 @@ Page sppeed insights - https://pagespeed.web.dev/
 
 Having alot of issues trying to add the video at the bottom of page one. I know it has to do with the file path but cant figure out what the issue is. I have tested the rest of the code by addind a background colour inplace of the url and that works perfect. After trying another image placed in the video file, I see It is the fact it is a video that I am trying to add as an image. So I am now assuming it needs tp be put in an iframe. After numerous attemps, Video container has finally appeared, although no video yet. think there is still issue with path. 
 
-Finding it hard to get the divs to wrap at the products and services section on page 1. I am thinking I may not be selecting the correct tags. Been at this for a few days so determined to get it sorted today. 
+Finding it hard to get the divs to wrap at the products and services section on page 1. I am thinking I may not be selecting the correct tags. Been at this for a few days so determined to get it sorted today. I was indeed targeting the wrong ids. I have recitified now but the divs are only flexing into two coloumns and I want it to spread across the bottom of page more. will come back to this. 
+
+Have styled the prod and serv divs and added white border. They are now more evenly spaced out and self adjust for different screen sizes

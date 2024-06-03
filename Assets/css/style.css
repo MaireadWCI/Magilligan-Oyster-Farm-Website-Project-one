@@ -235,13 +235,19 @@ p {
     padding: 15px;
     text-align: center;
     display: flex;
-    flex: 0 0 33.33%
-    
+   /* flex: 0 0 33.33%*/
+   /*this will not wrap on screens of less than 400px wide
+   each div will expand to fill the avialiable space on its row*/
+    flex-basis: 200px; 
+    flex-grow: 1;
+    /*cretes a grid over the background image*/
+    border: 2px solid white;
 }
 
 #servings-offerings {
     display: flex; /*handle responsitivity without the need for a media query*/
     flex-wrap: wrap; /*cant get the divs to flex*/
+    
     
 }
 
