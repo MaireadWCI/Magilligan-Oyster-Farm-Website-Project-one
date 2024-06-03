@@ -219,6 +219,44 @@ p {
     
 }
 
+/*servings and offerings section*/
+#offerings {
+    background: url(../images/PanoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
+   /* display: flex; /*handle responsitivity without the need for a media query*/
+    /*flex-wrap: wrap; /*cant get the divs to flex*/
+   /* width: 100%; 
+    height: auto;
+    object-fit: cover;*/ /*trying to stretch the image*/
+}
+
+#servings-offerings div {
+    color: #fafafa;
+    background-color: (0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex: 0 0 33.33%
+    
+}
+
+#servings-offerings {
+    display: flex; /*handle responsitivity without the need for a media query*/
+    flex-wrap: wrap; /*cant get the divs to flex*/
+    
+}
+
+
+
+/* overides the general settings for the H3 elements in servings-offerings*/
+#offerings h3 {
+    color: #fafafa;
+}
+#offerings h2 {
+    color: #fafafa;
+    font-size: 30px;
+}
+
+
 
 /*Footer*/
 /*footer {
