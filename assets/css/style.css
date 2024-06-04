@@ -298,6 +298,15 @@ p {
 
 /*Media queries always at bottom of screen*/
 /*for breakpoint for display size put smallest size first*/
+
+/*media query for large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     /*header*/
     nav {
@@ -305,7 +314,7 @@ p {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 2rem;
     }
 
     #menu {
@@ -320,15 +329,15 @@ p {
         display: none;
     }
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 /*main content*/
-   /* main {
-        margin-top: 100px; /*this is not fixing the gap, I have tried a few sizes and no difference
+   main {
+        margin-top: 130px;}/*this is not fixing the gap, I have tried a few sizes and no difference
         */
-    }
+    
 
 /*Hero*/
     #cover-text {
@@ -356,12 +365,25 @@ p {
         text-align: end;
         align-self: flex-end;
     }
+    
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+        /*tablet view needs spacing sorted at the top*/
+
+    }
+
 }
     
 /*laptops and pc 992px plus*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid rgb(112, 128, 144);/*not working right, line appears only when clicked*/}
+
+ /*Gallery*/ 
+ #photos {
+    column-count: 4;
+ }
 
   /* #hero {
     max-height: 100%;
@@ -373,7 +395,7 @@ p {
    #hero {
     height: 800px;
     width: 100%;}
-    
+   }
     /*media query for screens 1200px*/
     @media  screen and (min-width: 1200px) {
         #benefits {
@@ -399,4 +421,8 @@ p {
        #benefits-Physical > div {
             align-self: flex-end;
        }
-    
+
+       /*main content*/
+   main {
+    margin-top: 75px;}
+   }
