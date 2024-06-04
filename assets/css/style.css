@@ -272,8 +272,17 @@ p {
     line-height: 0;
  }
 
-
-
+/*Enquiries*/
+form {
+    background-color: gray;
+    color: antiquewhite;
+    margin: 40px;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid seashell;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;
+}
 
 
 /*Footer*/
