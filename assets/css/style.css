@@ -42,19 +42,21 @@ body {
     font-family: Montserrat, open-sans;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: open-sans, montserrat;
     color: rgb(79, 80, 82);
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-  
-    /*margin-bottom: 1em;  why is this not working*/
 
-    .hidden-heading {
-        display: none;
-    }
+/*margin-bottom: 1em;  why is this not working*/
+
+.hidden-heading {
+    display: none;
+}
 
 
 
@@ -69,7 +71,7 @@ header {
     width: 100%;
     box-shadow: 0 2px #808080;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: baseline;
 
 }
@@ -108,8 +110,10 @@ nav {
     left: 0;
     box-shadow: 0 2px #808080;
     padding: 0 1rem;
-    display: none; /*list items remain hidden until user clicks to open*/
-    top: 100%;/*tells the nav element to start at the bottom of the parent*/
+    display: none;
+    /*list items remain hidden until user clicks to open*/
+    top: 100%;
+    /*tells the nav element to start at the bottom of the parent*/
 }
 
 /*nav toggle*/
@@ -118,9 +122,10 @@ nav {
 }
 
 #nav-toggle {
-    display: none;/*hides check box*/
+    display: none;
+    /*hides check box*/
 
-} 
+}
 
 .nav-toggle-label {
     font-size: 1.5rem;
@@ -147,26 +152,28 @@ main {
     background-color: green;
     background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
     position: relative;
-    
 
-/*need to replace image with our images as pixelation poor*/
+
+    /*need to replace image with our images as pixelation poor*/
 }
 
 #cover-text {
     /*final rgba value sets the opacity so it is semi transparent*/
-    background-color: rgba(154, 184, 223,.6);
+    background-color: rgba(154, 184, 223, .6);
     font-size: 130%;
-    position:absolute;
+    position: absolute;
     bottom: 0px;
     width: 75%;
     min-height: 30px;
     padding-top: 10px;
     padding-left: 10px;
-    
+
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color: aliceblue;/*not sure about this colour change may remove and revert back to matching font colors same as heading*/
+#cover-text>h2,
+#cover-text>h3 {
+    color: aliceblue;
+    /*not sure about this colour change may remove and revert back to matching font colors same as heading*/
 }
 
 #reasons {
@@ -189,25 +196,27 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
 }
+
 hr {
-    border-top: 1px solid  rgb(79, 80, 82);
+    border-top: 1px solid rgb(79, 80, 82);
     margin: 5px 0;
 }
+
 p {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-#circular-cover-background { 
-    background-color: aqua; 
+#circular-cover-background {
+    background-color: aqua;
     width: 90vw;
     height: 90vh;
     border-radius: 50%;
     margin-bottom: 20px;
     max-width: 300px;
     max-width: 300px;
-   /* background: url(../video/logo.png) no-repeat top center / cover;*/
+    /* background: url(../video/logo.png) no-repeat top center / cover;*/
 }
 
 
@@ -215,19 +224,20 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
- /*would like video to fill more of the space*/
- /*would love to create video in a hexagon shape but with the issues I have had with getting the pathway and getting it to be circle think it might be a stretch for me just yet*/
-    
+    /*would like video to fill more of the space*/
+    /*would love to create video in a hexagon shape but with the issues I have had with getting the pathway and getting it to be circle think it might be a stretch for me just yet*/
+
 }
 
 /*servings and offerings section*/
 #offerings {
     background: url(../images/PanoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
-   /* display: flex; /*handle responsitivity without the need for a media query*/
+    /* display: flex; /*handle responsitivity without the need for a media query*/
     /*flex-wrap: wrap; /*cant get the divs to flex*/
-   /* width: 100%; 
+    /* width: 100%; 
     height: auto;
-    object-fit: cover;*/ /*trying to stretch the image*/
+    object-fit: cover;*/
+    /*trying to stretch the image*/
 }
 
 #servings-offerings div {
@@ -236,20 +246,22 @@ p {
     padding: 15px;
     text-align: center;
     display: flex;
-   /* flex: 0 0 33.33%*/
-   /*this will not wrap on screens of less than 400px wide
+    /* flex: 0 0 33.33%*/
+    /*this will not wrap on screens of less than 400px wide
    each div will expand to fill the avialiable space on its row*/
-    flex-basis: 200px; 
+    flex-basis: 200px;
     flex-grow: 1;
     /*cretes a grid over the background image*/
     border: 2px solid white;
 }
 
 #servings-offerings {
-    display: flex; /*handle responsitivity without the need for a media query*/
-    flex-wrap: wrap; /*cant get the divs to flex*/
-    
-    
+    display: flex;
+    /*handle responsitivity without the need for a media query*/
+    flex-wrap: wrap;
+    /*cant get the divs to flex*/
+
+
 }
 
 
@@ -258,6 +270,7 @@ p {
 #offerings h3 {
     color: #fafafa;
 }
+
 #offerings h2 {
     color: #fafafa;
     font-size: 30px;
@@ -266,29 +279,64 @@ p {
 /*Gallery page*/
 #photos img {
     width: 100%;
-    line-height: 1em;/*allows the alternate text to stay readable even with space removed between pics*/
+    line-height: 1em;
+    /*allows the alternate text to stay readable even with space removed between pics*/
 }
- #photos {
+
+#photos {
     line-height: 0;
- }
+}
 
 /*Enquiries*/
-form {
+/**main content*/
+main {
+    /*enlarge main image to push down footer*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
     background-color: gray;
-    color: antiquewhite;
+    background-image: url(/assets/images/lough-foyle-catchment.png);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+
+}
+
+/*contact form*/
+form {
+    color: whitesmoke;
     margin: 40px;
-    width: 50%;
+    width: 70%;
     padding: 20px;
     border: 2px solid seashell;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    
+   
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input [type="summit"] {
+    
 }
 
 
 /*Footer*/
 /*footer {
     background-color: darkslateblue;
-    color: slategrey;}*/ /*removed for now as using the id styling below*/
+    color: slategrey;}*/
+/*removed for now as using the id styling below*/
 
 
 #social-networks {
@@ -317,6 +365,7 @@ form {
 }
 
 @media screen and (min-width: 768px) {
+
     /*header*/
     nav {
         display: block;
@@ -330,25 +379,30 @@ form {
         display: flex;
     }
 
-    #menu >li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-/*main content*/
-   main {
-        margin-top: 130px;}/*this is not fixing the gap, I have tried a few sizes and no difference
-        */
-    
 
-/*Hero*/
+    /*main content*/
+    main {
+        margin-top: 130px;
+    }
+
+    /*this is not fixing the gap, I have tried a few sizes and no difference
+        */
+
+
+    /*Hero*/
     #cover-text {
         width: 500px;
         right: 20px;
@@ -365,16 +419,17 @@ form {
         flex-direction: column;
         width: 100%;
     }
-    #benefits-Physical > div,
-    #benefits-experince-sustainability > div {
+
+    #benefits-Physical>div,
+    #benefits-experince-sustainability>div {
         width: 75%;
     }
 
-    #benefits-experince-sustainability > div {
+    #benefits-experince-sustainability>div {
         text-align: end;
         align-self: flex-end;
     }
-    
+
     /*Gallery*/
     #photos {
         column-count: 3;
@@ -383,55 +438,61 @@ form {
     }
 
 }
-    
+
 /*laptops and pc 992px plus*/
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid rgb(112, 128, 144);/*not working right, line appears only when clicked*/}
+    #menu a:hover {
+        border-bottom: 1px solid rgb(112, 128, 144);
+        /*not working right, line appears only when clicked*/
+    }
 
- /*Gallery*/ 
- #photos {
-    column-count: 4;
- }
+    /*Gallery*/
+    #photos {
+        column-count: 4;
+    }
 
-  /* #hero {
+    /* #hero {
     max-height: 100%;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
    } (trying to get pic to fill screen on desktop view*/
 
-   #hero {
-    height: 800px;
-    width: 100%;}
-   }
-    /*media query for screens 1200px*/
-    @media  screen and (min-width: 1200px) {
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
+    #hero {
+        height: 800px;
+        width: 100%;
+    }
+}
 
-        #benefits > div {
-            flex: 1;
-        }
+/*media query for screens 1200px*/
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
-        #farm-video {
-            order: 0;
-        }
+    #benefits>div {
+        flex: 1;
+    }
 
-        #benefits-experince-sustainability {
-            order: 1;
-        }
+    #farm-video {
+        order: 0;
+    }
 
-       #benefits-experince-sustainability > div {
-            align-self: flex-start;
-       } 
-       #benefits-Physical > div {
-            align-self: flex-end;
-       }
+    #benefits-experince-sustainability {
+        order: 1;
+    }
 
-       /*main content*/
-   main {
-    margin-top: 75px;}
-   }
+    #benefits-experince-sustainability>div {
+        align-self: flex-start;
+    }
+
+    #benefits-Physical>div {
+        align-self: flex-end;
+    }
+
+    /*main content*/
+    main {
+        margin-top: 75px;
+    }
+}
