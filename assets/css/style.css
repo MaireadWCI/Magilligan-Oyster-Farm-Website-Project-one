@@ -446,6 +446,11 @@ footer {
         /*tablet view needs spacing sorted at the top*/
 
     }
+    
+    /*makes picture bigger in larger screen sizes*/
+    #servings-offerings {
+        height: 250px;
+    }
 
 }
 
