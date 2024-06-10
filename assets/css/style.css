@@ -381,6 +381,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 2rem;
+        height: 130px;
     }
 
     #menu {
