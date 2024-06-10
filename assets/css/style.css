@@ -10,12 +10,10 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings: 'wght' 100;   
 }
 
-/* <uniquifier>: Use a unique and descriptive class name*/
-/* <weight>: Use a value from 100 to 900*/
+
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
@@ -38,18 +36,25 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color: rgb(64, 70, 157);
+    color:  #0606a5;
     font-family: Montserrat, open-sans;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: open-sans, montserrat;
     color: whitesmoke;
     font-size: large;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+h3 {
+    font-family: open-sans, montserrat;
+    color: rgb(77, 75, 75);
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
 }
 
 /*margin-bottom: 1em;  why is this not working*/
@@ -59,11 +64,9 @@ h3 {
 }
 
 
-
-
 /*header*/
 header {
-    background-color:  rgb(64, 70, 157);
+    background-color: #0606a5;
     padding: 0 1rem;
     color: whitesmoke;
     position: fixed;
@@ -80,8 +83,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: inherit;
-    color: #252525;
+    color: rgb(77, 75, 75);
 }
 
 
@@ -97,15 +99,14 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid rgb(112, 128, 144);
-}
+    border-bottom: 1px solid rgb(77, 75, 75);
 
 
 
 /*navbar styles with deopdown menu*/
 nav {
     position: absolute;
-    background-color: whitesmoke;
+    background-color:#0606a5;
     width: 100%;
     left: 0;
     box-shadow: 0 2px #808080;
@@ -149,7 +150,7 @@ main {
 #hero {
     height: 900px;
     width: 100%;
-    background-color: green;
+    background-color: green; /*to text if pic not showing that code is correct*/
     background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
     position: relative;
 
@@ -172,13 +173,14 @@ main {
 
 #cover-text>h2,
 #cover-text>h3 {
-    color: aliceblue;
-    /*not sure about this colour change may remove and revert back to matching font colors same as heading*/
+    color: whitesmoke;
+   
 }
 
 #reasons {
     width: 90%;
     margin: 20px auto;
+    color:#0606a5
 }
 
 .reasons {
@@ -198,7 +200,7 @@ main {
 }
 
 hr {
-    border-top: 1px solid rgb(79, 80, 82);
+    border-top: 1px solid rgb(77, 75, 75);
     margin: 5px 0;
 }
 

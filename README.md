@@ -147,3 +147,5 @@ Finding it hard to get the divs to wrap at the products and services section on 
 Have styled the prod and serv divs and added white border. They are now more evenly spaced out and self adjust for different screen sizes
 REnamed Assets folder to assets folder and updated all links in pages
 added a gallery pages as I would like to add alot of pics here once I get good quality pics 
+  
+ changed color on the header and footer and for some reason the nav bar layout has changed to dropdown on all display views 
