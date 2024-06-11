@@ -149,3 +149,6 @@ REnamed Assets folder to assets folder and updated all links in pages
 added a gallery pages as I would like to add alot of pics here once I get good quality pics 
   
  changed color on the header and footer and for some reason the nav bar layout has changed to dropdown on all display views 
+
+ W3C validation check completed on HTML
+ 
