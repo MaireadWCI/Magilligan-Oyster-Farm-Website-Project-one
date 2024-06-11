@@ -10,14 +10,14 @@
    /* font-optical-sizing: auto;does ths need to be removed?*/
     font-weight: 600;
     font-style: normal;
-    font-variation-settings: 'wght' "100";   
+    /*font-variation-settings: 'wght' "100"; */ 
 }
 
 
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto; /*does this need to be removed?*/
+    /*font-optical-sizing: auto; does this need to be removed?*/
     font-weight: 600;
     font-style: normal;
     font-size: large;
