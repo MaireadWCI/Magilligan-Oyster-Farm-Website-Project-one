@@ -315,11 +315,12 @@ main {
 }
 
 /*contact form*/
+
 form {
     color: whitesmoke;
     margin: 40px;
     width: 70%;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid seashell;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -368,7 +369,7 @@ footer {
     #photos {
         column-count: 2;
         column-gap: 0;
-    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -450,6 +451,8 @@ footer {
     #servings-offerings {
         height: 250px;
     }
+
+
 
 }
 
