@@ -236,7 +236,7 @@ p {
 
 /*servings and offerings section*/
 #offerings {
-    background: url(../images/PanoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
+    background: url(../images/panoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
     /* display: flex; /*handle responsitivity without the need for a media query*/
     /*flex-wrap: wrap; /*cant get the divs to flex*/
     /* width: 100%; 
