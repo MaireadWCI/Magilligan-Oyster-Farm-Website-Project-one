@@ -154,7 +154,7 @@ main {
     height: 900px;
     width: 100%;
     background-color: green; /*to text if pic not showing that code is correct*/
-    background: url("../images/oyster\ on\ beach\ borrowed\ image.webp") no-repeat center center/cover;
+    background: url("../images/Default_Irish_giga_oyster_on_sandy_beach_with_blue_sky_0-placeholder-2.jpg") no-repeat center center/cover;
     position: relative;
 
 
@@ -334,6 +334,17 @@ label {
 
 input[type="summit"] {
     
+}
+
+/*goole maps location*/
+
+#location-map {
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
 }
 
 
