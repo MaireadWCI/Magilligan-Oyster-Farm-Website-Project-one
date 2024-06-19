@@ -35,10 +35,21 @@ BT49 0LA
 
 Phone: +44 (0) 28 7776 1234
 Email: info@magilliganoysters.com
+<p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/" rel="no-follow">here</p>
 
+##Table of Contents
+###User Experience (UX)
+1. Goals
+2. User stories
+3. Color Scheme
+4. Typography
+5. Wireframes. 
 23/05/24
 
+
+## Goals
 https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?usp=sharing (Spec Doc for project 1)
+<p>Visit Spec Doc <a href="https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?pli=1" rel="no-follow">here</p>
 
 Boiler plate html added 
 index.html added
