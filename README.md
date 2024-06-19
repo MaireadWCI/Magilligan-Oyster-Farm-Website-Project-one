@@ -47,9 +47,26 @@ Email: info@magilliganoysters.com
 23/05/24
 
 
-## Goals
+## UX.1.Goals
 https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?usp=sharing (Spec Doc for project 1)
 <p>Visit Spec Doc <a href="https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?pli=1" rel="no-follow">here</p>
+
+## UX.5.Wireframes
+<p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of layout and placement of the required elements</p>
+
+ WireFrame - Balsamiq 
+ ![Wireframe Image](./assets/images/Magilligan%20Strand%20Oyster%20Farm%20-%20html%20and%20css%20website.png)
+ ![Wireframe Image](./assets/images/New%20Wireframe%201.png)
+ ![Wireframe Image](./assets/images/New%20Wireframe%202.png)
+ ![Wireframe Image](./assets/images/New%20Wireframe%203.png)
+ ![Wireframe Image](./assets/images/New%20Wireframe%204.png)
+
+## UX.3.Color Scheme
+<p>Colours were chosen to represent the feel of the Ocean</p>
+
+![Color scheme](./assets/images/color-theme.png)
+
+
 
 Boiler plate html added 
 index.html added
@@ -93,12 +110,7 @@ added a gallery pages as I would like to add alot of pics here once I get good q
  W3C validation check completed on HTML
 
  https://app.leonardo.ai/image-generation used for Hero image  
- ![Wireframe Image](./assets/images/leaonardo-ai-examples.png){: width="50%" }
- 
+ ![Hero Image](./assets/images/leaonardo-ai-examples.png)
 
- WireFrame - Balsamiq 
- ![Wireframe Image](./assets/images/Magilligan%20Strand%20Oyster%20Farm%20-%20html%20and%20css%20website.png){: width="50%" }
- ![Wireframe Image](./assets/images/New%20Wireframe%201.png){: width="50%" }
- ![Wireframe Image](./assets/images/New%20Wireframe%202.png){: width="50%" }
- ![Wireframe Image](./assets/images/New%20Wireframe%203.png){: width="50%" }
- ![Wireframe Image](./assets/images/New%20Wireframe%204.png){: width="50%" }
+ responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
+ 
