@@ -320,9 +320,9 @@ form {
     color: whitesmoke;
     margin: 40px;
     width: 70%;
-    padding: 10px;
-    border: 2px solid seashell;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid #666;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);/*adds a subtle shadow*/
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -330,29 +330,50 @@ form {
      
 }
 
-form > h2 {
-    align-self: center;
+form h2 {
+    text-align: center;
 }
 
 label {
    grid-column: 1 / 2;
    text-align: right;
    padding-right: 5px;
+   color: whitesmoke;
+   font-size: 16px;
+   font-weight: bold;
 }
 
 #message {
     grid-column: 2 / 3;
     height: 150px;
+    color: whitesmoke;
+    padding: 10%;
+    border: 1px solid #666; /* match the border color */
+    border-radius: 5px;
+    resize: vertical; /*allow for vertical resizing*/
+
 }
 
 input {
     grid-column: 2 / 3;}
 
+input[type="text"], input[type="email"], input[type="number"] {
+        color: whitesmoke; /* match the text color */
+        padding: 10px;
+        border: 1px solid #666; /* match the border color */
+        border-radius: 5px; /* match the border radius */
+    }
+
 input[type="summit"] {
-    
+    color: whitesmoke; /* match the text color */
+    background-color: #666;
+    padding: 10px;
+    border: 1px solid #666; /* match the border color */
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/*goole maps location*/
+/*google maps location*/
 
 #location-map {
     width: 40%;
