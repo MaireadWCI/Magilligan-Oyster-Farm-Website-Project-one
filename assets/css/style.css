@@ -314,6 +314,35 @@ main {
 
 }
 
+/*About us page*/
+/*#about-us {
+ background-color: #808080;
+ color: whitesmoke;
+ padding-top: 30px;
+ border-top: 10%;
+}*/
+
+#about-us {
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 10%;
+}
+
+.about-us {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: x-large;
+    color:rgb(0, 84, 147);
+}
+
+#who-are-we h3 {
+    color: rgb(0, 84, 147);
+}
+
+#oyster-reel {
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 /*contact form*/
 
 form {
@@ -571,4 +600,6 @@ footer {
     main {
         margin-top: 75px;
     }
+
+    #photos
 }
