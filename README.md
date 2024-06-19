@@ -153,4 +153,12 @@ added a gallery pages as I would like to add alot of pics here once I get good q
  W3C validation check completed on HTML
 
  https://app.leonardo.ai/image-generation used for Hero image  
+ ![Wireframe Image](./assets/images/leaonardo-ai-examples.png){: width="50%" }
  
+
+ WireFrame - Balsamiq 
+ ![Wireframe Image](./assets/images/Magilligan%20Strand%20Oyster%20Farm%20-%20html%20and%20css%20website.png){: width="50%" }
+ ![Wireframe Image](./assets/images/New%20Wireframe%201.png){: width="50%" }
+ ![Wireframe Image](./assets/images/New%20Wireframe%202.png){: width="50%" }
+ ![Wireframe Image](./assets/images/New%20Wireframe%203.png){: width="50%" }
+ ![Wireframe Image](./assets/images/New%20Wireframe%204.png){: width="50%" }
