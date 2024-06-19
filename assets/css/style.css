@@ -324,13 +324,29 @@ form {
     border: 2px solid seashell;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
      
 }
 
-label {
-    display: block;
-    margin-top: 10px;
+form > h2 {
+    align-self: center;
 }
+
+label {
+   grid-column: 1 / 2;
+   text-align: right;
+   padding-right: 5px;
+}
+
+#message {
+    grid-column: 2 / 3;
+    height: 150px;
+}
+
+input {
+    grid-column: 2 / 3;}
 
 input[type="summit"] {
     
@@ -340,11 +356,15 @@ input[type="summit"] {
 
 #location-map {
     width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     height: 40vh;
     display: flex;
     justify-content: flex-end;
     align-items: end;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 
 
@@ -477,7 +497,11 @@ footer {
     /*Gallery*/
     #photos {
         column-count: 4;
+        object-fit: cover;
+    
     }
+
+
 
     /* #hero {
     max-height: 100%;
