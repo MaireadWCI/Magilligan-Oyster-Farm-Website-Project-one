@@ -102,6 +102,13 @@ Lighthouse - https://developer.chrome.com/docs/lighthouse/overview/
 Page sppeed insights - https://pagespeed.web.dev/
 ![speed-test Image](./assets/images/speed-test.png)
 
+Responsiveness testing
+Using the following site tested reponsiveness https://ui.dev/amiresponsive
+![display Image](./assets/images/amIresponsive.png)
+
+ responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
+ html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
+
 
 Having alot of issues trying to add the video at the bottom of page one. I know it has to do with the file path but cant figure out what the issue is. I have tested the rest of the code by addind a background colour inplace of the url and that works perfect. After trying another image placed in the video file, I see It is the fact it is a video that I am trying to add as an image. So I am now assuming it needs tp be put in an iframe. After numerous attemps, Video container has finally appeared, although no video yet. think there is still issue with path. 
 
@@ -118,6 +125,5 @@ added a gallery pages as I would like to add alot of pics here once I get good q
  https://app.leonardo.ai/image-generation used for Hero image  
  ![Hero Image](./assets/images/leaonardo-ai-examples.png)
 
- responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
- html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
+
  
