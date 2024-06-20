@@ -429,10 +429,8 @@ input[type="summit"] {
 #location-map {
     flex-basis: 40%;
    /* width: 40%;*/
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 40vh;
+    
+    
     display: flex;
     justify-content: flex-end;
     align-items: end;
@@ -558,6 +556,7 @@ footer {
             width: 100%;
         }
     
+    
 
     /*Gallery*/
     #photos {
@@ -637,6 +636,12 @@ footer {
     /*main content*/
     main {
         margin-top: 75px;
+    }
+
+    /*location map positioning*/
+
+    #location-map {
+        position: absolute;
     }
 
 }
