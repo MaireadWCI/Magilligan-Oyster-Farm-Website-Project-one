@@ -29,11 +29,6 @@ We use natural feeding methods, relying on the natural flow of alluvium from the
 For all inquiries, please contact us at:
 
 Magilligan Oyster Farm
-Magilligan, Co. Derry
-Northern Ireland
-BT49 0LA
-
-Phone: +44 (0) 28 7776 1234
 Email: info@magilliganoysters.com
 <p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/" rel="no-follow">here</p>
 
@@ -43,13 +38,29 @@ Email: info@magilliganoysters.com
 2. User stories
 3. Color Scheme
 4. Typography
-5. Wireframes. 
-23/05/24
+5. Wireframes.
+
 
 
 ## UX.1.Goals
 https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?usp=sharing (Spec Doc for project 1)
 <p>Visit Spec Doc <a href="https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?pli=1" rel="no-follow">here</p>
+
+## UX.2.User Stories
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<ul>
+
+## UX.3.Color Scheme
+<p>Colours were chosen to represent the feel of the Ocean</p>
+
+![Color scheme](./assets/images/color-theme.png)
+
+
 
 ## UX.5.Wireframes
 <p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of layout and placement of the required elements</p>
@@ -60,11 +71,6 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
  ![Wireframe Image](./assets/images/New%20Wireframe%202.png)
  ![Wireframe Image](./assets/images/New%20Wireframe%203.png)
  ![Wireframe Image](./assets/images/New%20Wireframe%204.png)
-
-## UX.3.Color Scheme
-<p>Colours were chosen to represent the feel of the Ocean</p>
-
-![Color scheme](./assets/images/color-theme.png)
 
 
 
@@ -113,4 +119,5 @@ added a gallery pages as I would like to add alot of pics here once I get good q
  ![Hero Image](./assets/images/leaonardo-ai-examples.png)
 
  responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
+ html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
  

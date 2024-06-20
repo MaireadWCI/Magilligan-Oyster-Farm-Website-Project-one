@@ -9,14 +9,11 @@
     <meta name="keywords"
         content="Magilligan Oyster Farm, Lough Foyle Ireland Oysters, Fresh Oysters Magilligan, Sustainable Oyster Farming Ireland, Lough Foyle Oyster Suppliers, 
      Magilligan Seafood Farm, Best Oysters in Lough Foyle, Irish Oyster Producers, Premium Irish Oysters, Fresh Seafood Delivery Ireland, Lough Foyle Shellfish, Magilligan Oyster Harvest, Sustainable Oyster culitvation, Seafood Farming practices, Oyster industry Ireland, Environmental Oyster Farming, Magilligan Oyster company, lough Foyle Oyster experience, Quality Irish Oysters, Oysters, Gigga Oyster, Pacific Oyster">
-    <title>Magilligan-Oyster-Farm</title>
+    <title>Magilligan-Strand-Oyster-Farm</title>
     <!--Favicon-->
-    <link rel="icon" type="image/png" size="180X180"
-        href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
-    <link rel="icon" type="image/png" size="32x32"
-        href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
-    <link rel="icon" type="image/png" size="16x16"
-        href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
+    <link rel="icon" type="image/png" href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
+    <link rel="icon" type="image/png" href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
+    <link rel="icon" type="image/png" href="/workspaces/Magilligan-Oyster-Farm-Website/assets/Favicon/logo.png">
     <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -42,30 +39,37 @@
         </nav>
     </header>
     <!--main content-->
-    <main class="montserrat">
-        <section id="contact">
-        
-            <form id="" method="post" action="https://formdump.codeinstitute.net"><!--wold like this to go directly to the Email but need to create via PHP-->
-                <h2>For all enquiries contact us!</h2>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="company-name">Company Name:</label>
-                <input type="text" id="company-name" name="company-name" optional><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="mobile-number">Contact Number:</label>
-                <input type="number" id="number" name="contact-number" optional><br><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea><br><br>
-                <input type="submit" value="send">
-            </form>
-        </section>
-        <section id="location-map">
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73004.75880190906!2d-7.190874228346658!3d55.12379861455793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48600577ac188877%3A0x425a136860c27f27!2sLough%20Foyle!5e0!3m2!1sen!2sie!4v1718143535582!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-        
+    <main id="contact-background" class="montserrat">
+        <div class="flex-enquires">
+            <section id="contact">
+
+                <form id="enquiries" method="post" action="https://formdump.codeinstitute.net">
+                    <!--would like this to go directly to the Email but need to create via PHP-->
+                    <h2>For all enquiries contact us!</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" name="company-name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="number">Contact Number:</label>
+                    <input type="number" id="number" name="contact-number"><br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <input type="submit" value="send">
+                </form>
+            </section>
+            <section id="location-map">
+                <h2>Our Location</h2><br>
+                <div>
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73004.75880190906!2d-7.190874228346658!3d55.12379861455793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48600577ac188877%3A0x425a136860c27f27!2sLough%20Foyle!5e0!3m2!1sen!2sie!4v1718143535582!5m2!1sen!2sie"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+        </div>
     </main>
 
     <!--footer-->

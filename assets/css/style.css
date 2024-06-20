@@ -36,8 +36,8 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color:  rgb(0, 84, 147)
-    font-family: 'Montserrat', 'Open-Sans', sans-serif;
+    color:  rgb(0, 84, 147);
+    font-family:'Montserrat', 'Open-Sans', sans-serif;
 }
 
 h1,
@@ -247,7 +247,7 @@ p {
 
 #servings-offerings div {
     color: #fafafa;
-    background-color: (0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 15px;
     text-align: center;
     display: flex;
@@ -281,38 +281,7 @@ p {
     font-size: 30px;
 }
 
-/*Gallery page*/
-#photos img {
-    width: 100%;
-    line-height: 1em;
-    /*allows the alternate text to stay readable even with space removed between pics*/
-}
 
-#photos {
-    line-height: 0;
-}
-
-/*Enquiries*/
-/**main content*/
-main {
-    /*enlarge main image to push down footer*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
-
-#contact {
-    background-color: #808080;
-    background-image: url("../images/lough-foyle-catchment.png");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-
-}
 
 /*About us page*/
 /*#about-us {
@@ -343,18 +312,69 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;}
+
+
+/*Gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    /*allows the alternate text to stay readable even with space removed between pics*/
+}
+
+#photos {
+    line-height: 0;
+}
+
+/*Enquiries*/
+/**main content*/
+/*main {
+    /*enlarge main image to push down footer*/
+    /*flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+   /* margin-top: 47px;
+    /* Enable flex properties for child elements */
+   /* display: flex;
+    flex-direction: column;
+}*/
+
+.flex-enquires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    margin-left: 0px;
+}
+
+#contact-background {
+    flex-basis: 45%;
+    background-color: #808080;
+    padding: 20px;
+    background-image: url("../images/lough-foyle-catchment.png");
+    background-size: cover;
+    background-position: 75%;}
+    
+  
+   /* padding: 20px 10% 0 10%;*/
+    /*flex-grow: 1;
+
+}*/
+
 /*contact form*/
+
+/*#contact {
+    grid-template-columns: 2fr 1fr;
+}*/
 
 form {
     color: whitesmoke;
-    margin: 40px;
-    width: 70%;
+    margin-top: 40px;
+    width: 40%;
     padding: 20px;
     border: 2px solid #666;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);/*adds a subtle shadow*/
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 20px;
      
 }
@@ -365,7 +385,7 @@ form h2 {
 
 label {
    grid-column: 1 / 2;
-   text-align: right;
+   text-align: left;
    padding-right: 5px;
    color: whitesmoke;
    font-size: 16px;
@@ -380,6 +400,7 @@ label {
     border: 1px solid #666; /* match the border color */
     border-radius: 5px;
     resize: vertical; /*allow for vertical resizing*/
+    align-items: center;
 
 }
 
@@ -387,10 +408,11 @@ input {
     grid-column: 2 / 3;}
 
 input[type="text"], input[type="email"], input[type="number"] {
-        color: whitesmoke; /* match the text color */
-        padding: 10px;
+        color: #666 /*match text color to border to stand out*/
+        padding: 20px;
         border: 1px solid #666; /* match the border color */
         border-radius: 5px; /* match the border radius */
+        width: 100%;
     }
 
 input[type="summit"] {
@@ -405,7 +427,8 @@ input[type="summit"] {
 /*google maps location*/
 
 #location-map {
-    width: 40%;
+    flex-basis: 40%;
+   /* width: 40%;*/
     position: absolute;
     bottom: 0;
     right: 0;
@@ -415,7 +438,11 @@ input[type="summit"] {
     align-items: end;
     flex-direction: column;
     margin-bottom: 5%;
+    margin-right: 20px;
+    
 }
+
+
 
 
 /*Footer*/
@@ -449,7 +476,7 @@ footer {
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 0;}
     
 }
 
@@ -520,6 +547,17 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    
+    .flex-enquires {
+            flex-direction: column;
+        }
+    
+    #contact, #location-map {
+            flex-basis: auto;
+            width: 100%;
+        }
+    
 
     /*Gallery*/
     #photos {
@@ -601,5 +639,4 @@ footer {
         margin-top: 75px;
     }
 
-    #photos
 }
