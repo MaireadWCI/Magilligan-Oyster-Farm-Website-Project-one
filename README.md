@@ -48,11 +48,11 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
 ## UX.2.User Stories
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>As a customer, I want be able to navigate through the website clearly</li>
+<li>As a customer, I want to understand what quality the product are and how this is achieved</li>
+<li>As a customer, I want to be able to contact the company to clarify information and negotiate sales</li>
+<li>As a customer, I want to find social media links to the business</li>
+<li>As a customer, I want to learn more about the company and the product and services offered </li>
 <ul>
 
 ## UX.3.Color Scheme

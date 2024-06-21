@@ -7,10 +7,10 @@
 
 .open-sans {
     font-family: "Open Sans", sans-serif;
-   /* font-optical-sizing: auto;does ths need to be removed?*/
+    /* font-optical-sizing: auto;does ths need to be removed?*/
     font-weight: 600;
     font-style: normal;
-    /*font-variation-settings: 'wght' "100"; */ 
+    /*font-variation-settings: 'wght' "100"; */
 }
 
 
@@ -27,7 +27,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;/*does this need to be removed?*/
+    box-sizing: border-box;
+    /*does this need to be removed?*/
 }
 
 /*general styles*/
@@ -36,8 +37,8 @@ body {
     display: flex;
     flex-direction: column;
     /*generic project styles*/
-    color:  rgb(0, 84, 147);
-    font-family:'Montserrat', 'Open-Sans', sans-serif;
+    color: rgb(0, 84, 147);
+    font-family: 'Montserrat', 'Open-Sans', sans-serif;
 }
 
 h1,
@@ -54,7 +55,7 @@ h3 {
     color: #808080;
     font-size: large;
     text-transform: uppercase;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
 /*margin-bottom: 1em;  why is this not working*/
@@ -94,9 +95,9 @@ header a {
     letter-spacing: 4px;
 }
 
-#menu > li {
-    margin-bottom : 1em;
-    }
+#menu>li {
+    margin-bottom: 1em;
+}
 
 .active {
     border-bottom: 1px solid #808080;
@@ -106,7 +107,7 @@ header a {
 /*navbar styles with deopdown menu*/
 nav {
     position: absolute;
-    background-color:rgb(0, 84, 147);
+    background-color: rgb(0, 84, 147);
     color: whitesmoke;
     width: 100%;
     left: 0;
@@ -153,7 +154,8 @@ main {
 #hero {
     height: 900px;
     width: 100%;
-    background-color: green; /*to text if pic not showing that code is correct*/
+    background-color: green;
+    /*to text if pic not showing that code is correct*/
     background: url("../images/Default_Irish_giga_oyster_on_sandy_beach_with_blue_sky_0-placeholder-2.jpg") no-repeat center center/cover;
     position: relative;
 
@@ -177,7 +179,7 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: whitesmoke;
-   
+
 }
 
 #reasons {
@@ -189,7 +191,7 @@ main {
     margin-bottom: 20px;
     text-align: center;
     font-size: x-large;
-    color:rgb(0, 84, 147);
+    color: rgb(0, 84, 147);
 }
 
 #benefits h3 {
@@ -214,7 +216,7 @@ p {
 }
 
 #circular-cover-background {
-    background-color:rgb(0, 84, 147);
+    background-color: rgb(0, 84, 147);
     width: 90vw;
     height: 90vh;
     border-radius: 50%;
@@ -301,7 +303,7 @@ p {
     margin-bottom: 20px;
     text-align: center;
     font-size: x-large;
-    color:rgb(0, 84, 147);
+    color: rgb(0, 84, 147);
 }
 
 #who-are-we h3 {
@@ -311,7 +313,8 @@ p {
 #oyster-reel {
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
 
 /*Gallery page*/
@@ -329,11 +332,11 @@ p {
 /**main content*/
 /*main {
     /*enlarge main image to push down footer*/
-    /*flex: 1 0 auto;
+/*flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-   /* margin-top: 47px;
+/* margin-top: 47px;
     /* Enable flex properties for child elements */
-   /* display: flex;
+/* display: flex;
     flex-direction: column;
 }*/
 
@@ -351,11 +354,12 @@ p {
     padding: 20px;
     background-image: url("../images/lough-foyle-catchment.png");
     background-size: cover;
-    background-position: 75%;}
-    
-  
-   /* padding: 20px 10% 0 10%;*/
-    /*flex-grow: 1;
+    background-position: 75%;
+}
+
+
+/* padding: 20px 10% 0 10%;*/
+/*flex-grow: 1;
 
 }*/
 
@@ -371,12 +375,13 @@ form {
     width: 40%;
     padding: 20px;
     border: 2px solid #666;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);/*adds a subtle shadow*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /*adds a subtle shadow*/
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
-     
+
 }
 
 form h2 {
@@ -384,42 +389,49 @@ form h2 {
 }
 
 label {
-   grid-column: 1 / 2;
-   text-align: left;
-   padding-right: 5px;
-   color: whitesmoke;
-   font-size: 16px;
-   font-weight: bold;
+    grid-column: 1 / 2;
+    text-align: left;
+    padding-right: 5px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #message {
     grid-column: 2 / 3;
     height: 150px;
-    color: whitesmoke;
+    color: #666;
     padding: 10%;
-    border: 1px solid #666; /* match the border color */
+    border: 1px solid #666;
+    /* match the border color */
     border-radius: 5px;
-    resize: vertical; /*allow for vertical resizing*/
+    resize: vertical;
+    /*allow for vertical resizing*/
     align-items: center;
 
 }
 
 input {
-    grid-column: 2 / 3;}
+    grid-column: 2 / 3;
+}
 
-input[type="text"], input[type="email"], input[type="number"] {
-        color: #666 /*match text color to border to stand out*/
-        padding: 20px;
-        border: 1px solid #666; /* match the border color */
-        border-radius: 5px; /* match the border radius */
-        width: 100%;
-    }
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    color: #666 /*match text color to border to stand out*/
+    border: 1px solid #666; /* match the border color */
+    border-radius: 5px;/* match the border radius */
+    width: 100%;
+    padding: 10px;
+}
 
 input[type="summit"] {
-    color: whitesmoke; /* match the text color */
+    color: whitesmoke;
+    /* match the text color */
     background-color: #666;
     padding: 10px;
-    border: 1px solid #666; /* match the border color */
+    border: 1px solid #666;
+    /* match the border color */
     border-radius: 5px;
     cursor: pointer;
 }
@@ -428,16 +440,16 @@ input[type="summit"] {
 
 #location-map {
     flex-basis: 40%;
-   /* width: 40%;*/
-    
-    
+    /* width: 40%;*/
+
+
     display: flex;
     justify-content: flex-end;
     align-items: end;
     flex-direction: column;
     margin-bottom: 5%;
     margin-right: 20px;
-    
+
 }
 
 
@@ -464,7 +476,7 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: whitesmoke;
-   
+
 }
 
 /*Media queries always at bottom of screen*/
@@ -474,8 +486,14 @@ footer {
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
-        column-gap: 0;}
-    
+        column-gap: 0;
+    }
+
+    form {
+        width: 80%;
+        padding: 30px
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -505,18 +523,14 @@ footer {
 
     #logo {
         font-size: x-large;
-       /* line-height: 75px;
+        /* line-height: 75px;
         margin: 0 0.5rem;*/
-}
+    }
 
     /*main content*/
     main {
         margin-top: 130px;
     }
-
-    /*this is not fixing the gap, I have tried a few sizes and no difference
-        */
-
 
     /*Hero*/
     #cover-text {
@@ -546,17 +560,29 @@ footer {
         align-self: flex-end;
     }
 
-    
+    /*enquires page*/
+    #contact-background {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    display: inline-block;
+    }
+
+    form {
+        width: 80%;
+        padding: 30px
+    }
+
     .flex-enquires {
-            flex-direction: column;
-        }
-    
-    #contact, #location-map {
-            flex-basis: auto;
-            width: 100%;
-        }
-    
-    
+        flex-direction: column;
+    }
+
+    #contact,
+    #location-map {
+        flex-basis: auto;
+        width: 100%;
+    }
+
+
 
     /*Gallery*/
     #photos {
@@ -564,7 +590,7 @@ footer {
         /*tablet view needs spacing sorted at the top*/
 
     }
-    
+
     /*makes picture bigger in larger screen sizes*/
     #servings-offerings {
         height: 250px;
@@ -585,7 +611,7 @@ footer {
     #photos {
         column-count: 4;
         object-fit: cover;
-    
+
     }
 
 
@@ -612,10 +638,10 @@ footer {
 
     #benefits>div {
         flex: 1;
-        
+
     }
 
-     
+
 
     #farm-video {
         order: 0;
