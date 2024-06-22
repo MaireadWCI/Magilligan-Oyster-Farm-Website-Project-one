@@ -160,9 +160,8 @@ main {
     width: 100%;
     background-color: green;
     /*to text if pic not showing that code is correct*/
+    background: url("../images/default_Irish_giga_oyster_on_sandy_beach_with_blue_sky_0-placeholder-2.jpg") no-repeat center center/cover;
     position: relative;
-    background: url("../images/default_Irish_giga_oyster_on_sandy_beach_with_blue_sky_0-placeholder-2.jpg) no-repeat center center/cover;
-    
 
 
     /*need to replace image with our images as pixelation poor*/
