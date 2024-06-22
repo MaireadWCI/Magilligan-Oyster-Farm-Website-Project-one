@@ -30,21 +30,54 @@ For all inquiries, please contact us at:
 
 Magilligan Oyster Farm
 Email: info@magilliganoysters.com
-<p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/" rel="no-follow">here</p>
+<p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/" rel="no-follow">here</a></p>
 
-##Table of Contents
-###User Experience (UX)
-1. Goals
-2. User stories
-3. Color Scheme
-4. Typography
-5. Wireframes.
+## Table of Contents
+### User Experience (UX)
+1.Goals
+2.User stories
+3.Color Scheme
+4.Typography
+5.Wireframes.
+
+### Features
+ 1.General
+ 2.Landing Page
+ 3.Treatments Page
+ 4.Book Now Page
+ 5.404 Error Page
+ 
+### Technologies Used
+ 1.Languages Used
+ 2.Frameworks, Libraries and Programs Used
+
+
+### Testing
+ 1.Testing User Stories
+ 2.Code Validation
+ 3.Accessibility
+ 4.Tools Testing
+ 5.Manual Testing
+
+
+### Finished Product
+
+### Deployment
+ 1.GitHub Pages
+
+### Credits
+ 1.Content
+ 2.Media
+ 3.Code
+
+
+### Acknowledgements
 
 
 
 ## UX.1.Goals
 https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?usp=sharing (Spec Doc for project 1)
-<p>Visit Spec Doc <a href="https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?pli=1" rel="no-follow">here</p>
+<p>Visit Spec Doc <a href="https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/edit?pli=1" rel="no-follow">here</a></p>
 
 ## UX.2.User Stories
 <ul>
@@ -52,7 +85,7 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <li>As a customer, I want to understand what quality the product are and how this is achieved</li>
 <li>As a customer, I want to be able to contact the company to clarify information and negotiate sales</li>
 <li>As a customer, I want to find social media links to the business</li>
-<li>As a customer, I want to learn more about the company and the product and services offered </li>
+<li>As a customer, I want to learn more about the company and the product and services offered</li>
 <ul>
 
 ## UX.3.Color Scheme
@@ -60,6 +93,8 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
 ![Color scheme](./assets/images/color-theme.png)
 
+## UX.4.Typography
+<p>The main font used in the site is"Open Sans", sans-serif and monsterrat. Fonts sected using googlefont selector: google fonts selected -https://fonts.google.com/</p>
 
 
 ## UX.5.Wireframes
@@ -74,6 +109,56 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
 
 
+### Features
+ 1.General Aims
+ <p>Responsive deisign across all display sizes<p>
+ <p>Unified color scheme across all pages to help structure and present the information to the clients.</p>
+ <p>header</p>
+  ![header img](./assets/images/header.png)
+
+<p>The header contains the business title and fully responsive nav bar to the right of the screen. The Nav bar becomes a burger icon for smaller devives sizes</p>
+<p>It contains links to all pages to facilite ease of navigation. An underline is highlighted on mouseover</p>
+ <p>Footer</P>
+ ![footer image](./assets/images/footer.png)
+ <p>The footer keeps the same color sheme as the header and contains all the social media link for the business</p>
+  2.Landing Page
+  [!main image](./assets/images/landing-pg-hero.png)
+  <p>the landing page presents a clear indication on what the website is about. It show an open oyster on a sandy beach with a blue sky behind</p>
+  [!Why-us image](./assets/images/why-us.png)
+  <p>Contains text about the reasons why t  </p>
+
+ 3.Treatments Page
+ 4.Book Now Page
+ 5.404 Error Page
+
+ ### Technologies Used
+ 1.Languages Used
+ 2.Frameworks, Libraries and Programs Used
+
+
+### Testing
+ 1.Testing User Stories
+ 2.Code Validation
+ 3.Accessibility
+ 4.Tools Testing
+ 5.Manual Testing
+
+
+### Finished Product
+
+### Deployment
+ <p><a href="https://github.com/MaireadWCI/Magilligan-Oyster-Farm-Website">Github deployed pages</a></p>
+
+
+### Credits
+ 1.Content
+ 2.Media
+ 3.Code
+
+
+### Acknowledgements
+
+
 Boiler plate html added 
 index.html added
 Favicon unsuccessful add
@@ -83,12 +168,10 @@ Favicon issue resolved had to unzip before adding.
 added links for fav icons and formatted doc to links would add nicely 
 /workspaces/Magilligan-Oyster-Farm-Website/Assets/Favicon/logo.png
 
-google fonts selected -https://fonts.google.com/
 
-Hero image added to main page and section of reasons added underneath. Audio of wave added to the hero cover text mpeg taken from Pixabay.com. https://pixabay.com/sound-effects/ocean-waves-112906/loop was added to the audio control and hope to hide controls and style with icon that has a call to ation to open the controls. i have worked hard on making hero image fit on all size devices. On small screen still having issues with the top not meeting neetly with the header. 
+
+Hero image added to main page and section of reasons added underneath. Audio of wave added to the hero cover text mpeg taken from Pixabay.com. https://pixabay.com/sound-effects/ocean-waves-112906/loop was added to the audio control and hid controls and style with icon that has a call to ation to open the controls. i have worked hard on making hero image fit on all size devices. On small screen still having issues with the top not meeting neetly with the header. 
 Hero image is just a place holder at the minute as pixalation is poor. Worried with new image it may through everything I have done so far off. But that is the joys!
-
-Need to learn how to revert to a certain section of code. 
 
 waiting on access to gidpod enterprise. I seem to just have been coding in github this whole time , so would like to start doing it properly so I finish project with more knowlege . Navigation of Gitpod/Github has been tough. Time to master it. 
 

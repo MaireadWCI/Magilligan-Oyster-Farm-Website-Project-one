@@ -342,19 +342,23 @@ p {
 
 .flex-enquires {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 0 0 0;
-    margin-left: 0px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    align-items: baseline;
 }
 
 #contact-background {
-    flex-basis: 45%;
     background-color: #808080;
     padding: 20px;
     background-image: url("../images/lough-foyle-catchment.png");
     background-size: cover;
     background-position: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 
@@ -365,14 +369,17 @@ p {
 
 /*contact form*/
 
-/*#contact {
-    grid-template-columns: 2fr 1fr;
-}*/
+#contact {
+    flex: 1;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 20px;
+}
 
 form {
     color: whitesmoke;
     margin-top: 40px;
-    width: 40%;
+    width: 100%;
     padding: 20px;
     border: 2px solid #666;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -418,7 +425,7 @@ input {
 input[type="text"],
 input[type="email"],
 input[type="number"] {
-    color: #666 /*match text color to border to stand out*/
+    color: #666; /*match text color to border to stand out*/
     border: 1px solid #666; /* match the border color */
     border-radius: 5px;/* match the border radius */
     width: 100%;
@@ -439,17 +446,12 @@ input[type="summit"] {
 /*google maps location*/
 
 #location-map {
-    flex-basis: 40%;
-    /* width: 40%;*/
-
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    flex-direction: column;
-    margin-bottom: 5%;
-    margin-right: 20px;
-
+    flex: 1;
+    justify-self: flex-end;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 20px;
+   
 }
 
 
@@ -482,6 +484,8 @@ footer {
 /*Media queries always at bottom of screen*/
 /*for breakpoint for display size put smallest size first*/
 
+
+
 /*media query for large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
@@ -489,12 +493,19 @@ footer {
         column-gap: 0;
     }
 
-    form {
-        width: 80%;
-        padding: 30px
-    }
+    
 
 }
+
+@media screen and (max-width: 768px) {
+    .flex-enquires {
+        flex-direction: column;
+    }
+
+
+
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -567,14 +578,10 @@ footer {
     display: inline-block;
     }
 
-    form {
-        width: 80%;
-        padding: 30px
-    }
 
-    .flex-enquires {
+    /* .flex-enquires {
         flex-direction: column;
-    }
+    } */
 
     #contact,
     #location-map {
@@ -598,6 +605,27 @@ footer {
 
 
 
+}
+
+@media screen and (max-width: 1024px) {
+    .flex-enquires {
+        flex-wrap: wrap;
+    }
+
+    form {
+        width: 80%;
+        
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    form{
+    width: 100%;
+    display: block;
+    grid-template-columns: 0;
+    grid-gap: 0;
+    }
 }
 
 /*laptops and pc 992px plus*/
@@ -666,8 +694,8 @@ footer {
 
     /*location map positioning*/
 
-    #location-map {
+    /* #location-map {
         position: absolute;
-    }
+    } */
 
 }
