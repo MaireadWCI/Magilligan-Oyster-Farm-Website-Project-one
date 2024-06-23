@@ -34,31 +34,37 @@ Email: info@magilliganoysters.com
 
 ## Table of Contents
 ### User Experience (UX)
-1.Goals
-2.User stories
-3.Color Scheme
-4.Typography
-5.Wireframes.
+<ol>
+<li>Goals</li>
+<li>User stories</li>
+<li>Color Scheme</li>
+<li>Typography</li>
+<li>Wireframes</li>
+</ol>
 
 ### Features
- 1.General
- 2.Landing Page
- 3.Treatments Page
- 4.Book Now Page
- 5.404 Error Page
- 
-### Technologies Used
- 1.Languages Used
- 2.Frameworks, Libraries and Programs Used
+<ol>
+<li>General</li>
+<li>Landing Page</li>
+<li>Treatments Page</li>
+<li>Book Now Page</li>
+<li>404 Error Page</li>
+</ol>
 
+### Technologies Used
+<ol>
+<li>Languages Used</li>
+<li>Frameworks, Libraries and Programs Used</li>
+</ol>
 
 ### Testing
- 1.Testing User Stories
- 2.Code Validation
- 3.Accessibility
- 4.Tools Testing
- 5.Manual Testing
-
+<ol>
+<li>Testing User Stories</li>
+<li>Code Validation</li>
+<li>Accessibility</li>
+<li>Tools Testing</li>
+<li>Manual Testing</li>
+</ol>
 
 ### Finished Product
 
@@ -66,9 +72,11 @@ Email: info@magilliganoysters.com
  1.GitHub Pages
 
 ### Credits
- 1.Content
- 2.Media
- 3.Code
+<ol>
+<li>Content</li>
+<li>Media</li>
+<li>Code</li>
+</ol>
 
 
 ### Acknowledgements
@@ -81,11 +89,10 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
 ## UX.2.User Stories
 <ul>
-<li>As a customer, I want be able to navigate through the website clearly</li>
-<li>As a customer, I want to understand what quality the product are and how this is achieved</li>
-<li>As a customer, I want to be able to contact the company to clarify information and negotiate sales</li>
-<li>As a customer, I want to find social media links to the business</li>
-<li>As a customer, I want to learn more about the company and the product and services offered</li>
+<li>As a customer, I want be able to navigate through the website clearly.</li>
+<li>As a customer, I want to learn more about the company and the product and services offered and to understand what quality the product are and how this is achieved.</li>
+<li>As a customer, I want to be able to contact the company to clarify information and negotiate sales.</li>
+<li>As a customer, I want to find social media links to the business.</li>
 <ul>
 
 ## UX.3.Color Scheme
@@ -101,47 +108,125 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a> was used to create a preview of layout and placement of the required elements</p>
 
  WireFrame - Balsamiq 
- ![Wireframe Image](./assets/images/Magilligan%20Strand%20Oyster%20Farm%20-%20html%20and%20css%20website.png)
- ![Wireframe Image](./assets/images/New%20Wireframe%201.png)
- ![Wireframe Image](./assets/images/New%20Wireframe%202.png)
- ![Wireframe Image](./assets/images/New%20Wireframe%203.png)
- ![Wireframe Image](./assets/images/New%20Wireframe%204.png)
+ ![Wireframe Image](./assets/images/magilligan%20Strand%20Oyster%20Farm%20-%20html%20and%20css%20website.png)
+ ![Wireframe Image](./assets/images/new%20Wireframe%201.png)
+ ![Wireframe Image](./assets/images/new%20Wireframe%202.png)
+ ![Wireframe Image](./assets/images/new%20Wireframe%203.png)
+ ![Wireframe Image](./assets/images/new%20Wireframe%204.png)
 
 
 
 ### Features
- 1.General Aims
+ <li>General Aims</li><br>
+
  <p>Responsive deisign across all display sizes<p>
  <p>Unified color scheme across all pages to help structure and present the information to the clients.</p>
  <p>header</p>
-  ![header img](./assets/images/header.png)
+ 
+  <img src="./assets/images/header.png" alt="header img">
 
 <p>The header contains the business title and fully responsive nav bar to the right of the screen. The Nav bar becomes a burger icon for smaller devives sizes</p>
 <p>It contains links to all pages to facilite ease of navigation. An underline is highlighted on mouseover</p>
  <p>Footer</P>
  ![footer image](./assets/images/footer.png)
  <p>The footer keeps the same color sheme as the header and contains all the social media link for the business</p>
-  2.Landing Page
-  [!main image](./assets/images/landing-pg-hero.png)
-  <p>the landing page presents a clear indication on what the website is about. It show an open oyster on a sandy beach with a blue sky behind</p>
-  [!Why-us image](./assets/images/why-us.png)
-  <p>Contains text about the reasons why t  </p>
+  <li>Landing Page</li>
+  <img src="./assets/images/landing-pg-hero.png" alt="main img">
+  <p>The landing page presents a clear indication on what the website is about. It show an open oyster on a sandy beach with a blue sky behind</p>
+  <img src="./assets/images/why-us.png" alt="Why-us image">
+  <p>Contains text about the reasons why</p>
 
- 3.Treatments Page
- 4.Book Now Page
- 5.404 Error Page
+  <li>About Us</li>
+  <img src="./assets/images/compressed-who.png" alt="About-us image">
+  <P>As the site is an informational site for potential buyers, this contains a lot of information about the company and its team and its USPs</p>
+  
+  <li>Gallery</li>
+  <img src="./assets/images/gallery-compressed.png" alt="gallery image">
+  <p>The Gallery contains images of the area of the farm and of the workers</p>
+  <li>Enquires</li>
+    <img src="./assets/images/contacts-img-compressed.png" alt="gallery image">
+<p>The contacts page contains input areas for data capture for customers to contact the company</p>
 
- ### Technologies Used
- 1.Languages Used
- 2.Frameworks, Libraries and Programs Used
 
+ ## Technologies Used
+ <ol>
+<li>Languages Used</li>
+<li>Frameworks, Libraries and Programs Used</li>
+</ol>
+
+### Languages used
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/HTML5" rel="nofollow">HTML5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CSS" rel="nofollow">CSS3</a></li>
+</ul>
+
+### Frameworks, Libraries and Programs Used
+<ul>
+<li><a href="https://fontawesome.com/" rel="nofollow">Font Awesome</a></li>
+<p>This was used to get decorative icons. </p>
+<li><a href="https://fonts.google.com/" rel="nofollow">Google Fonts</a></li>
+<p>This was used to select font styles for the CSS file. </p>
+<li><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a></li>
+<p>This was used to create a wireframe for the project.</p>
+<li><a href="https://github.com/">GitHub</a></li>
+<p>Github was used to store and share the project. But it was also used in conjunction with vs to create the majority of the site.</p>
+<li><a href="https://gitpod.io/" rel="nofollow">GitPod</a></li>
+<p>This was set up and helped to create the site.</p>
+<li><a href="https://tinypng.com/" rel="nofollow">TinyPNG</a></li>
+<p>This was used to compress my images to improve loading time. </p>
+<li><a href="http://ami.responsivedesign.is/#" rel="nofollow">Am I Responsive?</a></li>
+<p>This was  used to give a visual idea of what the site would look like on different screens.</p>
+<li><a href="https://www.responsivedesignchecker.com/" rel="nofollow">Responsive Design Checker</a></li>
+<p>Used to test the sites responsiveness on differnt devices.</p>
+<li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow">Chrome DevTools</a></li>
+<p>Used throughout the project to review code and test reponsiveness.</p>
+<li><a href="https://validator.w3.org/" rel="nofollow">W3C Markup Validator</a></li>
+<p>This was used to validate the html in the website.</p>
+<li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow">W3C CSS Validator</a></li>
+<p>This was used to validate the CSS in the website. </p>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 ### Testing
- 1.Testing User Stories
- 2.Code Validation
- 3.Accessibility
- 4.Tools Testing
- 5.Manual Testing
+<ol>
+<li><strong>Testing User Stories</strong></li>
+<p>As a customer, I want be able to navigate through the website clearly</p>
+<p>
+<ul>
+<li>The website has been design to give easy navigation to the user. Each page contains the same layout to make navigation a simple process. </li>
+</ul>
+</p>
+<p>As a customer, I want to understand what quality the product are and how this is achieved.</p>
+<p>
+<ul>
+<li>The benifits and products are referred to on the landing page. With deep information given on the About us page.</li>
+</ul>
+</p>
+<p>As a customer, I want to be able to contact the company to clarify information and negotiate sales.</p>
+<p>
+<ul>
+<li>A dedicated contact page has been set up for customer to give brief message and who they are. It would be intended this would like directly to office enquires.</li>
+</ul>
+</p>
+<p>As a customer, I want to find social media links to the business.</p>
+<p>
+<ul>
+<li>Social media links are on the footer of every page. This unity of pages ensures ease of use for customer and therefore better UX.</li>
+
+<li></li>
+</ul>
+</p>
+<li><strong>Code Validation</strong></li>
+<p></p>
+<li><strong>Accessibility</strong></li>
+<p></p>
+<li><strong>Tools Testing</strong></li>
+<p></p>
+<li><strong>Manual Testing</strong></li>
+<p></p>
+</ol>
 
 
 ### Finished Product
@@ -151,6 +236,9 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
 
 ### Credits
+<ol>
+<li></li>
+</ol>
  1.Content
  2.Media
  3.Code

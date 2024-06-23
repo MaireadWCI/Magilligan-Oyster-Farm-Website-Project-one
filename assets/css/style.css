@@ -320,8 +320,23 @@ p {
     justify-content: center;
 }
 
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .centered-image img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+  }
+
 
 /*Gallery page*/
+
+
 #photos img {
     width: 100%;
     line-height: 1em;
