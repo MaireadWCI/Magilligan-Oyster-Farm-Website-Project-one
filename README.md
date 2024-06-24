@@ -121,13 +121,15 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 
  <p>Responsive deisign across all display sizes<p>
  <p>Unified color scheme across all pages to help structure and present the information to the clients.</p>
- <p>header</p>
+ <p>Header</p>
  
   <img src="./assets/images/header.png" alt="header img">
 
 <p>The header contains the business title and fully responsive nav bar to the right of the screen. The Nav bar becomes a burger icon for smaller devives sizes</p>
 <p>It contains links to all pages to facilite ease of navigation. An underline is highlighted on mouseover</p>
+
  <p>Footer</P>
+
  ![footer image](./assets/images/footer.png)
  <p>The footer keeps the same color sheme as the header and contains all the social media link for the business</p>
   <li>Landing Page</li>
@@ -176,7 +178,6 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p>This was used to compress my images to improve loading time. </p>
 <li><a href="http://ami.responsivedesign.is/#" rel="nofollow" alt="am-i-responsive">Am I Responsive?</a></li>
 <p>This was  used to give a visual idea of what the site would look like on different screens.</p>
-<li><a href="https://www.responsivedesignchecker.com/" rel="nofollow" alt="responsive-design-checker">Responsive Design Checker</a></li>
 <p>Used to test the sites responsiveness on differnt devices.</p>
 <li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow" alt="chrome-dev-tools">Chrome DevTools</a></li>
 <p>Used throughout the project to review code and test reponsiveness.</p>
@@ -184,12 +185,11 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p>This was used to validate the html in the website.</p>
 <li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow" alt="CSS validator">W3C CSS Validator</a></li>
 <p>This was used to validate the CSS in the website. </p>
-<li></li>
-<li></li>
-<li></li>
+
 </ul>
 
 ### Testing
+
 <ol>
 <li><strong>Testing User Stories</strong></li>
 <p>As a customer, I want be able to navigate through the website clearly</p>
@@ -245,7 +245,6 @@ Responsiveness testing
 Using the following site tested reponsiveness https://ui.dev/amiresponsive
 ![display Image](./assets/images/amIresponsive.png)
 
- responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
  html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
  
 </ol>
@@ -271,72 +270,43 @@ Using the following site tested reponsiveness https://ui.dev/amiresponsive
 ![Enquires2 Image](./assets/images/contact-fin2.png)
 
 
-
-
- 
-
-
 ### Deployment
  <p><a href="https://github.com/MaireadWCI/Magilligan-Oyster-Farm-Website">Github deployed pages</a></p>
 
- 
-
+### Looking forward
+<p>This site is to be used for an actual company that require updated vidoes and pictures. Most are genuine picture but some are placeholders. Drone footage is scheduled and will be uploaded to site.</p>
+<p>The contact section will need the appropriate coding added to link directly to the companies site. </p>
+<p>The gallery section as stated above will be updated with new imanges and at that time will make the main and the footer more seamless across all devices.</p>
+<p>Map location is not exactly how I would like it to respond. I intend on working on its positioning so It is more aligned to the right of the display in larger screen sizes.</p>
 
 
 ### Credits
 <ol>
-<li></li>
+<li>leonardo.ai for images</li>
+
+ https://app.leonardo.ai/image-generation used for Hero image  
+ ![Hero Image](./assets/images/leaonardo-ai-examples.png)
+
+
+<li>Balsamiq for wireframes</li>
+<li>Perplexity to check errors</li>
+<li>Pixabay for audio effects</li>
+<li>Stack Overflow and W3Schools</li>
 </ol>
- 1.Content
- 2.Media
- 3.Code
+
 
 
 ### Acknowledgements
 
+<ul>
+<li>Marcel my tutor for being straight and informative.</li>
+<li>My facilitator Lewis for being a fantastic support.</li>
+</ul>
 
-Boiler plate html added 
-index.html added
-Favicon unsuccessful add
-assets folder created
-
-Favicon issue resolved had to unzip before adding. 
-added links for fav icons and formatted doc to links would add nicely 
-/workspaces/Magilligan-Oyster-Farm-Website/Assets/Favicon/logo.png
-
-
-
-Hero image added to main page and section of reasons added underneath. Audio of wave added to the hero cover text mpeg taken from Pixabay.com. https://pixabay.com/sound-effects/ocean-waves-112906/loop was added to the audio control and hid controls and style with icon that has a call to ation to open the controls. i have worked hard on making hero image fit on all size devices. On small screen still having issues with the top not meeting neetly with the header. 
-Hero image is just a place holder at the minute as pixalation is poor. Worried with new image it may through everything I have done so far off. But that is the joys!
-
-waiting on access to gidpod enterprise. I seem to just have been coding in github this whole time , so would like to start doing it properly so I finish project with more knowlege . Navigation of Gitpod/Github has been tough. Time to master it. 
 
 Site deployed https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/index.html
 
 
-Testing 
-Lighthouse - https://developer.chrome.com/docs/lighthouse/overview/
-![lighthouse-testing Image](./assets/images/lighthouse-testing.png)
-
-Page sppeed insights - https://pagespeed.web.dev/
-![speed-test Image](./assets/images/speed-test.png)
-
-
-
-Having alot of issues trying to add the video at the bottom of page one. I know it has to do with the file path but cant figure out what the issue is. I have tested the rest of the code by addind a background colour inplace of the url and that works perfect. After trying another image placed in the video file, I see It is the fact it is a video that I am trying to add as an image. So I am now assuming it needs tp be put in an iframe. After numerous attemps, Video container has finally appeared, although no video yet. think there is still issue with path. 
-
-Finding it hard to get the divs to wrap at the products and services section on page 1. I am thinking I may not be selecting the correct tags. Been at this for a few days so determined to get it sorted today. I was indeed targeting the wrong ids. I have recitified now but the divs are only flexing into two coloumns and I want it to spread across the bottom of page more. will come back to this. 
-
-Have styled the prod and serv divs and added white border. They are now more evenly spaced out and self adjust for different screen sizes
-REnamed Assets folder to assets folder and updated all links in pages
-added a gallery pages as I would like to add alot of pics here once I get good quality pics 
-  
- changed color on the header and footer and for some reason the nav bar layout has changed to dropdown on all display views 
-
- W3C validation check completed on HTML
-
- https://app.leonardo.ai/image-generation used for Hero image  
- ![Hero Image](./assets/images/leaonardo-ai-examples.png)
 
 
  
