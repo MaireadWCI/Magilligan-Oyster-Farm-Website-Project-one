@@ -226,22 +226,61 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p>Lighthouse in google dev tools was used to check accessability</p>
 <ul>
 <li>Landing Page</li>
+<img src="./assets/images/index-compressed1.png" alt="landing-page-lighthouse-image">
+
 <li>About Us</li>
+<img src="./assets/images/about-us-compressed.png" alt="about-us-lighthouse-image">
 <li>Gallery</li>
+<img src="./assets/images/gallery-compressed1.png" alt="gallery-lighthouse-image">
 <li>contact</li>
+<img src="./assets/images/enquires-compressed.png" alt="contact-lighthouse-image">
 </ul>
 
 <li><strong>Tools Testing</strong></li>
-<p></p>
+<p>Chrome dev tools was mainly used throughout the project to modigy and explore the elements and styles.</p>
 <li><strong>Manual Testing</strong></li>
-<p></p>
+<p>Am I responive and chrome dev tools were used to check display sizes thoughout creation of website. </p>
+
+Responsiveness testing
+Using the following site tested reponsiveness https://ui.dev/amiresponsive
+![display Image](./assets/images/amIresponsive.png)
+
+ responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
+ html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
+ 
 </ol>
 
 
+
 ### Finished Product
+#### Landing Page
+![landing Image](./assets/images/landing-fin.png)
+![landing2 Image](./assets/images/landing-fin2.png)
+![landing3 Image](./assets/images/landing-fin3.png)
+
+#### About Us Page
+![Aboutus2 Image](./assets/images/about2.png)
+![Aboutus3 Image](./assets/images/about3.png)
+![Aboutus4 Image](./assets/images/about4.png)
+
+#### Gallery 
+![Gallery Image](./assets/images/gallery-fin.png)
+
+#### Enquires
+![Enquires Image](./assets/images/contact-fin.png)
+![Enquires2 Image](./assets/images/contact-fin2.png)
+
+
+
+
+ 
+
 
 ### Deployment
  <p><a href="https://github.com/MaireadWCI/Magilligan-Oyster-Farm-Website">Github deployed pages</a></p>
+
+ 
+
 
 
 ### Credits
@@ -282,12 +321,6 @@ Lighthouse - https://developer.chrome.com/docs/lighthouse/overview/
 Page sppeed insights - https://pagespeed.web.dev/
 ![speed-test Image](./assets/images/speed-test.png)
 
-Responsiveness testing
-Using the following site tested reponsiveness https://ui.dev/amiresponsive
-![display Image](./assets/images/amIresponsive.png)
-
- responsive design checker https://www.websiteplanet.com/webtools/responsive-checker/
- html and Css checked on https://validator.w3.org/nu/ and https://jigsaw.w3.org/css-validator/#validate_by_input
 
 
 Having alot of issues trying to add the video at the bottom of page one. I know it has to do with the file path but cant figure out what the issue is. I have tested the rest of the code by addind a background colour inplace of the url and that works perfect. After trying another image placed in the video file, I see It is the fact it is a video that I am trying to add as an image. So I am now assuming it needs tp be put in an iframe. After numerous attemps, Video container has finally appeared, although no video yet. think there is still issue with path. 
