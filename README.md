@@ -166,23 +166,23 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p>This was used to get decorative icons. </p>
 <li><a href="https://fonts.google.com/" rel="nofollow">Google Fonts</a></li>
 <p>This was used to select font styles for the CSS file. </p>
-<li><a href="https://balsamiq.com/" rel="nofollow">Balsamiq</a></li>
+<li><a href="https://balsamiq.com/" rel="nofollow" alt="balsamiq">Balsamiq</a></li>
 <p>This was used to create a wireframe for the project.</p>
-<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://github.com/" alt="github">GitHub</a></li>
 <p>Github was used to store and share the project. But it was also used in conjunction with vs to create the majority of the site.</p>
-<li><a href="https://gitpod.io/" rel="nofollow">GitPod</a></li>
+<li><a href="https://gitpod.io/" rel="nofollow" alt="gitpod">GitPod</a></li>
 <p>This was set up and helped to create the site.</p>
-<li><a href="https://tinypng.com/" rel="nofollow">TinyPNG</a></li>
+<li><a href="https://tinypng.com/" rel="nofollow" alt="tinypng">TinyPNG</a></li>
 <p>This was used to compress my images to improve loading time. </p>
-<li><a href="http://ami.responsivedesign.is/#" rel="nofollow">Am I Responsive?</a></li>
+<li><a href="http://ami.responsivedesign.is/#" rel="nofollow" alt="am-i-responsive">Am I Responsive?</a></li>
 <p>This was  used to give a visual idea of what the site would look like on different screens.</p>
-<li><a href="https://www.responsivedesignchecker.com/" rel="nofollow">Responsive Design Checker</a></li>
+<li><a href="https://www.responsivedesignchecker.com/" rel="nofollow" alt="responsive-design-checker">Responsive Design Checker</a></li>
 <p>Used to test the sites responsiveness on differnt devices.</p>
-<li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow">Chrome DevTools</a></li>
+<li><a href="https://developer.chrome.com/docs/devtools/" rel="nofollow" alt="chrome-dev-tools">Chrome DevTools</a></li>
 <p>Used throughout the project to review code and test reponsiveness.</p>
-<li><a href="https://validator.w3.org/" rel="nofollow">W3C Markup Validator</a></li>
+<li><a href="https://validator.w3.org/" rel="nofollow" alt="html validator">W3C Markup Validator</a></li>
 <p>This was used to validate the html in the website.</p>
-<li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow">W3C CSS Validator</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/" rel="nofollow" alt="CSS validator">W3C CSS Validator</a></li>
 <p>This was used to validate the CSS in the website. </p>
 <li></li>
 <li></li>
@@ -214,12 +214,14 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <p>
 <ul>
 <li>Social media links are on the footer of every page. This unity of pages ensures ease of use for customer and therefore better UX.</li>
-
-<li></li>
-</ul>
 </p>
+
 <li><strong>Code Validation</strong></li>
-<p></p>
+<p>W3C Markup validator and W3C CSS validator were used to find any synax errors in code. </p>
+<img src="./assets/images/errors-compressed.png" alt="validator-error-image">
+<img src="./assets/images/html-check-compressed.png" alt="html-checked-image">
+<img src="./assets/images/css-checker-compressed.png" alt="css-checked-image">
+
 <li><strong>Accessibility</strong></li>
 <p></p>
 <li><strong>Tools Testing</strong></li>
