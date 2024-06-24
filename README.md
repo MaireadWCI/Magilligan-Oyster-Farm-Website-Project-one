@@ -223,7 +223,13 @@ https://docs.google.com/document/d/14p_OkuVETSkwAEcmhyA3MSAHjsIHavdmzmFHj7FhHOs/
 <img src="./assets/images/css-checker-compressed.png" alt="css-checked-image">
 
 <li><strong>Accessibility</strong></li>
-<p></p>
+<p>Lighthouse in google dev tools was used to check accessability</p>
+<ul>
+<li>Landing Page</li>
+<li>About Us</li>
+<li>Gallery</li>
+<li>contact</li>
+</ul>
 
 <li><strong>Tools Testing</strong></li>
 <p></p>
