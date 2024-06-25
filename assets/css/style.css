@@ -134,7 +134,7 @@ nav {
 
 #logo {
     padding-right: 4px;
-    padding-left: 15px;
+
 }
 
 .nav-toggle-label {
@@ -165,7 +165,7 @@ main {
     position: relative;
 
 
-   
+
 }
 
 #cover-text {
@@ -326,13 +326,13 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .centered-image img {
+}
+
+.centered-image img {
     width: 70%;
     height: 70%;
     object-fit: cover;
-  }
+}
 
 
 /*Gallery page*/
@@ -380,7 +380,8 @@ p {
     align-items: center;
     min-height: 100vh;
     margin-right: 0;
-    
+    margin-top: 0%;
+
 }
 
 
@@ -448,9 +449,12 @@ input {
 input[type="text"],
 input[type="email"],
 input[type="number"] {
-    color: #666; /*match text color to border to stand out*/
-    border: 1px solid #666; /* match the border color */
-    border-radius: 5px;/* match the border radius */
+    color: #666;
+    /*match text color to border to stand out*/
+    border: 1px solid #666;
+    /* match the border color */
+    border-radius: 5px;
+    /* match the border radius */
     width: 100%;
     padding: 10px;
 }
@@ -475,7 +479,7 @@ input[type="summit"] {
     overflow-x: hidden;
     padding: 20px;
     margin-left: 60px;
-   
+
 }
 
 
@@ -514,14 +518,21 @@ footer {
     }  
 } */
 
-@media screen and (max-width: 426px) {
-    form{
-    width: 100%;
-    display: block;
-    grid-template-columns: 0;
-    grid-gap: 0;
+@media screen and (max-width: 335px) {
+    #message {
+        width: 170px;
     }
-/* 25/06 */
+}
+
+@media screen and (max-width: 426px) {
+    form {
+        width: 100%;
+        display: block;
+        grid-template-columns: 0;
+        grid-gap: 0;
+    }
+
+    /* 25/06 */
     #message {
         width: 260px;
     }
@@ -541,16 +552,18 @@ footer {
         column-gap: 0;
     }
 
-    
+
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .flex-enquires {
         flex-direction: column;
     }
 
-
+    #contact-background {
+        margin-top: 0%;
+    }
 
 }
 
@@ -568,6 +581,10 @@ footer {
         height: 130px;
     }
 
+    /* #enquiries-nav {
+        width: 80px;
+    } */
+
     #menu {
         display: flex;
         background-color: rgb(0, 84, 147);
@@ -576,7 +593,7 @@ footer {
     #menu>li {
         padding-left: 1rem;
         color: whitesmoke;
-        
+
     }
 
     .nav-toggle-label {
@@ -624,10 +641,10 @@ footer {
 
     /*enquires page*/
     #contact-background {
-    margin-top: 80px;
-    margin-bottom: 0px;
-    display: inline-block;
-    
+        margin-top: 80px;
+        margin-bottom: 0px;
+        display: inline-block;
+
     }
 
 
@@ -676,11 +693,11 @@ footer {
 }
 
 /* media query to fix header for displays over 1000px */
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
     #header {
         width: 92.5px;
-    } 
-}
+    }
+
 
     /* #hero {
     max-height: 100%;
@@ -703,7 +720,7 @@ footer {
 
     form {
         width: 80%;
-        
+
     }
 
 }
@@ -725,7 +742,17 @@ footer {
         margin-left: 150px;
     } */
 
+    /* #enquiries-header {
+        width: 92.5%;
+    } */
 
+    #enquiries-nav {
+        width: 40%;
+    }
+
+    #location-map {
+        margin-left: 30px;
+    }
 
     #farm-video {
         order: 0;
