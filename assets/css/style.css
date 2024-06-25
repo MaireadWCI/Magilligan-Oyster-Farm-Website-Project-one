@@ -134,6 +134,7 @@ nav {
 
 #logo {
     padding-right: 4px;
+    padding-left: 15px;
 }
 
 .nav-toggle-label {
@@ -473,6 +474,7 @@ input[type="summit"] {
     max-width: 100%;
     overflow-x: hidden;
     padding: 20px;
+    margin-left: 60px;
    
 }
 
@@ -671,7 +673,14 @@ footer {
 
     }
 
+}
 
+/* media query to fix header for displays over 1000px */
+@media screen and (min-width: 1000px){
+    #header {
+        width: 92.5px;
+    } 
+}
 
     /* #hero {
     max-height: 100%;
@@ -712,9 +721,9 @@ footer {
 
     }
 
-    .flex-enquires{
+    /* .flex-enquires{
         margin-left: 150px;
-    }
+    } */
 
 
 
