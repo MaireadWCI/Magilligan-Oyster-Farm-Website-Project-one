@@ -271,7 +271,10 @@ Using the following site tested reponsiveness https://ui.dev/amiresponsive
 
 
 ### Deployment
- <p><a href="https://github.com/MaireadWCI/Magilligan-Oyster-Farm-Website">Github deployed pages</a></p>
+
+ <p><a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/index.html"></a> Github deployed pages</a></p>
+ <p><a href="https://github.com/MaireadWCI/Magilligan-Oyster-Farm-Website"></a>Repository</p>
+
 
 ### Looking forward
 <p>This site is to be used for an actual company that require updated vidoes and pictures. Most are genuine picture but some are placeholders. Drone footage is scheduled and will be uploaded to site.</p>

@@ -378,6 +378,7 @@ p {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-right: 0;
     
 }
 
@@ -408,6 +409,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 
 }
 
@@ -503,6 +505,30 @@ footer {
 
 /*Media queries always at bottom of screen*/
 /*for breakpoint for display size put smallest size first*/
+
+/* @media screen and (max-width: 320px) {
+    #message {
+        width: 10px;
+    }  
+} */
+
+@media screen and (max-width: 426px) {
+    form{
+    width: 100%;
+    display: block;
+    grid-template-columns: 0;
+    grid-gap: 0;
+    }
+/* 25/06 */
+    #message {
+        width: 260px;
+    }
+
+    #contact-background {
+        margin-top: -10%;
+    }
+}
+
 
 
 
@@ -631,32 +657,6 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px) {
-    .flex-enquires {
-        flex-wrap: wrap;
-    }
-
-    form {
-        width: 80%;
-        
-    }
-
-}
-
-@media screen and (max-width: 426px) {
-    form{
-    width: 100%;
-    display: block;
-    grid-template-columns: 0;
-    grid-gap: 0;
-    }
-
-    #contact-background {
-        margin-top: -10%;
-    }
-}
-
-
 /*laptops and pc 992px plus*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -685,6 +685,20 @@ footer {
         width: 100%;
     } */
 }
+
+
+@media screen and (max-width: 1024px) {
+    .flex-enquires {
+        flex-wrap: wrap;
+    }
+
+    form {
+        width: 80%;
+        
+    }
+
+}
+
 
 /*media query for screens 1200px*/
 @media screen and (min-width: 1200px) {
