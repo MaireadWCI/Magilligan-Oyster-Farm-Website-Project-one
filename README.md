@@ -30,7 +30,7 @@ For all inquiries, please contact us at:
 
 Magilligan Oyster Farm
 Email: info@magilliganoysters.com
-<p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website/" rel="no-follow">here</a></p>
+<p>Visit the deployed website <a href="https://maireadwci.github.io/Magilligan-Oyster-Farm-Website-Project-one/" rel="no-follow">here</a></p>
 
 ## Table of Contents
 ### User Experience (UX)
