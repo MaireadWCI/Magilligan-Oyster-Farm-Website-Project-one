@@ -4,20 +4,14 @@
 /*font style*/
 /*<uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800*/
-
 .open-sans {
     font-family: "Open Sans", sans-serif;
-    /* font-optical-sizing: auto;does ths need to be removed?*/
     font-weight: 600;
     font-style: normal;
-    /*font-variation-settings: 'wght' "100"; */
 }
-
-
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
-    /*font-optical-sizing: auto; does this need to be removed?*/
     font-weight: 600;
     font-style: normal;
     font-size: large;
@@ -28,7 +22,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*does this need to be removed?*/
 }
 
 /*general styles*/
@@ -58,12 +51,9 @@ h3 {
     letter-spacing: 2px;
 }
 
-/*margin-bottom: 1em;  why is this not working*/
-
 .hidden-heading {
     display: none;
 }
-
 
 /*header*/
 header {
@@ -77,7 +67,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 header a {
@@ -86,8 +75,6 @@ header a {
     letter-spacing: 2px;
     color: whitesmoke;
 }
-
-
 
 #menu {
     font-size: 110%;
@@ -103,8 +90,7 @@ header a {
     border-bottom: 1px solid #808080;
 }
 
-
-/*navbar styles with deopdown menu*/
+/*navbar styles with dropdown menu*/
 nav {
     position: absolute;
     background-color: rgb(0, 84, 147);
@@ -116,9 +102,6 @@ nav {
     display: none;
     /*list items remain hidden until user clicks to open*/
     top: 100%;
-    /* height: 100px; */
-
-    /*tells the nav element to start at the bottom of the parent*/
 }
 
 /*nav toggle*/
@@ -129,12 +112,10 @@ nav {
 #nav-toggle {
     display: none;
     /*hides check box*/
-
 }
 
 #logo {
     padding-right: 4px;
-
 }
 
 .nav-toggle-label {
@@ -143,9 +124,7 @@ nav {
 }
 
 /*main*/
-
 main {
-    /*background-color: rgb(154, 184, 223); not neededd as adding hero imaage*/
     /*make main element take up extra surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
@@ -178,13 +157,11 @@ main {
     min-height: 30px;
     padding-top: 10px;
     padding-left: 10px;
-
 }
 
 #cover-text>h2,
 #cover-text>h3 {
     color: whitesmoke;
-
 }
 
 #reasons {
@@ -228,7 +205,6 @@ p {
     margin-bottom: 20px;
     max-width: 300px;
     max-width: 300px;
-    /* background: url(../video/logo.png) no-repeat top center / cover;*/
 }
 
 
@@ -236,20 +212,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*would like video to fill more of the space*/
-    /*would love to create video in a hexagon shape but with the issues I have had with getting the pathway and getting it to be circle think it might be a stretch for me just yet*/
-
 }
 
 /*servings and offerings section*/
 #offerings {
     background: url(../images/panoramicLoughFoyle-1-1024x480-1.jpeg) no-repeat center / cover;
-    /* display: flex; /*handle responsitivity without the need for a media query*/
-    /*flex-wrap: wrap; /*cant get the divs to flex*/
-    /* width: 100%; 
-    height: auto;
-    object-fit: cover;*/
-    /*trying to stretch the image*/
 }
 
 #servings-offerings div {
@@ -259,11 +226,9 @@ p {
     text-align: center;
     display: flex;
     /* flex: 0 0 33.33%*/
-    /*this will not wrap on screens of less than 400px wide
-   each div will expand to fill the avialiable space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
-    /*cretes a grid over the background image*/
+    /*creates a grid over the background image*/
     border: 2px solid whitesmoke;
 }
 
@@ -271,12 +236,7 @@ p {
     display: flex;
     /*handle responsitivity without the need for a media query*/
     flex-wrap: wrap;
-    /*cant get the divs to flex*/
-
-
 }
-
-
 
 /* overides the general settings for the H3 elements in servings-offerings*/
 #offerings h3 {
@@ -287,16 +247,6 @@ p {
     color: whitesmoke;
     font-size: 30px;
 }
-
-
-
-/*About us page*/
-/*#about-us {
- background-color: #808080;
- color: whitesmoke;
- padding-top: 30px;
- border-top: 10%;
-}*/
 
 #about-us {
     width: 90%;
@@ -336,8 +286,6 @@ p {
 
 
 /*Gallery page*/
-
-
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -349,17 +297,6 @@ p {
 }
 
 /*Enquiries*/
-/**main content*/
-/*main {
-    /*enlarge main image to push down footer*/
-/*flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-/* margin-top: 47px;
-    /* Enable flex properties for child elements */
-/* display: flex;
-    flex-direction: column;
-}*/
-
 .flex-enquires {
     display: flex;
     justify-content: space-between;
@@ -381,17 +318,9 @@ p {
     min-height: 100vh;
     margin-right: 0;
     margin-top: 0%;
-
 }
 
-
-/* padding: 20px 10% 0 10%;*/
-/*flex-grow: 1;
-
-}*/
-
 /*contact form*/
-
 #contact {
     flex: 1;
     max-width: 100%;
@@ -412,7 +341,6 @@ form {
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
     background-color: rgba(0, 0, 0, 0.2);
-
 }
 
 form h2 {
@@ -439,7 +367,6 @@ label {
     resize: vertical;
     /*allow for vertical resizing*/
     align-items: center;
-
 }
 
 input {
@@ -471,7 +398,6 @@ input[type="summit"] {
 }
 
 /*google maps location*/
-
 #location-map {
     flex: 1;
     justify-self: flex-end;
@@ -479,19 +405,13 @@ input[type="summit"] {
     overflow-x: hidden;
     padding: 20px;
     margin-left: 60px;
-
 }
-
-
-
 
 /*Footer*/
 footer {
     background-color: rgb(0, 84, 147);
     color: whitesmoke;
 }
-
-/*removed for now as using the id styling below*/
 
 
 #social-networks {
@@ -506,17 +426,7 @@ footer {
     font-size: 160%;
     padding: 5%;
     color: whitesmoke;
-
 }
-
-/*Media queries always at bottom of screen*/
-/*for breakpoint for display size put smallest size first*/
-
-/* @media screen and (max-width: 320px) {
-    #message {
-        width: 10px;
-    }  
-} */
 
 @media screen and (max-width: 335px) {
     #message {
@@ -532,7 +442,6 @@ footer {
         grid-gap: 0;
     }
 
-    /* 25/06 */
     #message {
         width: 260px;
     }
@@ -542,18 +451,12 @@ footer {
     }
 }
 
-
-
-
 /*media query for large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 0;
     }
-
-
-
 }
 
 @media screen and (max-width: 767px) {
@@ -566,7 +469,6 @@ footer {
     }
 
 }
-
 
 @media screen and (min-width: 768px) {
 
@@ -581,10 +483,6 @@ footer {
         height: 130px;
     }
 
-    /* #enquiries-nav {
-        width: 80px;
-    } */
-
     #menu {
         display: flex;
         background-color: rgb(0, 84, 147);
@@ -593,7 +491,6 @@ footer {
     #menu>li {
         padding-left: 1rem;
         color: whitesmoke;
-
     }
 
     .nav-toggle-label {
@@ -616,10 +513,6 @@ footer {
         width: 500px;
         right: 20px;
     }
-
-    /* #hero {
-        height: 500px;
-    } */
 
     /*benefits section*/
     #benefits-Physical,
@@ -644,13 +537,7 @@ footer {
         margin-top: 80px;
         margin-bottom: 0px;
         display: inline-block;
-
     }
-
-
-    /* .flex-enquires {
-        flex-direction: column;
-    } */
 
     #contact,
     #location-map {
@@ -658,36 +545,27 @@ footer {
         width: 100%;
     }
 
-
-
     /*Gallery*/
     #photos {
         column-count: 3;
-        /*tablet view needs spacing sorted at the top*/
-
     }
 
     /*makes picture bigger in larger screen sizes*/
     #servings-offerings {
         height: 250px;
     }
-
-
-
 }
 
 /*laptops and pc 992px plus*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(112, 128, 144);
-        /*not working right, line appears only when clicked*/
     }
 
     /*Gallery*/
     #photos {
         column-count: 4;
         object-fit: cover;
-
     }
 
 }
@@ -697,19 +575,6 @@ footer {
     #header {
         width: 92.5px;
     }
-
-
-    /* #hero {
-    max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-   } (trying to get pic to fill screen on desktop view*/
-
-    /* #hero {
-        height: 800px;
-        width: 100%;
-    } */
 }
 
 
@@ -720,7 +585,13 @@ footer {
 
     form {
         width: 80%;
+    }
 
+}
+
+@media screen and (min-width: 1025px){
+    #location-map {
+        margin-left: 150px;
     }
 
 }
@@ -735,23 +606,10 @@ footer {
 
     #benefits>div {
         flex: 1;
-
     }
-
-    /* .flex-enquires{
-        margin-left: 150px;
-    } */
-
-    /* #enquiries-header {
-        width: 92.5%;
-    } */
 
     #enquiries-nav {
         width: 40%;
-    }
-
-    #location-map {
-        margin-left: 30px;
     }
 
     #farm-video {
@@ -774,11 +632,5 @@ footer {
     main {
         margin-top: 75px;
     }
-
-    /*location map positioning*/
-
-    /* #location-map {
-        position: absolute;
-    } */
 
 }
